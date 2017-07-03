@@ -1,4 +1,4 @@
-# Becoming of a Manifesto
+### Becoming of a Manifesto
 
 Stefan Germer beschreibt die Salonmalerei im 19. Jahrhundert als Malerei zum Zwecke der Repräsentation
 ihrer Auftraggeber, zu dieser Zeit oftmals Adelige. Funktion? Öffentlichkeit? Spektakel?
@@ -10,7 +10,7 @@ Unternehmen zu den größten und einflussreichsten der Welt werden, die ihr Geld
 überall und jederzeit verfügbare Bühne bereitzustellen.
 
 Aura. Die Unnahbare Ferne. Was damals noch keine Kunst war, wie beispielsweise die Medusa von Gericault
-wird erst duch die zeitliche Verschleierung des Vergessens zur Kunst in einem Prozess der der �berlagerung der
+wird erst duch die zeitliche Verschleierung des Vergessens zur Kunst in einem Prozess der der Überlagerung der
 Raumresonanz von Alvin Luciers 'I am Sitting in a Room' gleicht. Die Aura ensteht, der Ausgangspunkt ist in
 unnahbare Ferne gerückt, ungreifbar. Nur noch Nebel.
 
