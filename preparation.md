@@ -18,4 +18,4 @@
 
 ### Projects of interest
 
-[Terra0 - "On the Blockchain nobody knows you are a forest"](http://www.terra0.org/)
+* [Terra0 - "On the Blockchain nobody knows you are a forest"](http://www.ter**ra0.org/)
