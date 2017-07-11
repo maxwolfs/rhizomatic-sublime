@@ -1,6 +1,6 @@
 ## Preparation:
 
-### Technologiey of interest
+### Technologies of interest
 
 #### Neural Networks
 
@@ -9,7 +9,7 @@
 
 #### Blockchain
 
-* [TODO Recherche Funktionsweise]
+* [TODO research]
 * [Example code for Etherium-based Smart Contracts](https://www.ethereum.org/token)
 
 ### Manifestos of interest
