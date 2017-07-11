@@ -1,6 +1,6 @@
-## Vorbereitung:
+## Preparation:
 
-### Technologien
+### Technologiey of interest
 
 #### Neural Networks
 
@@ -10,9 +10,9 @@
 #### Blockchain
 
 * [TODO Recherche Funktionsweise]
-* [TODO Recherche smart contracts]
+* [Example code for Etherium-based Smart Contracts](https://www.ethereum.org/token)
 
-### Manifests
+### Manifestos of interest
 
 * [Dunne & Raby - A/B](http://www.dunneandraby.co.uk/content/projects/476/0)
 
