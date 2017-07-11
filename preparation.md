@@ -19,3 +19,4 @@
 ### Projects of interest
 
 * [Terra0 - "On the Blockchain nobody knows you are a forest"](http://www.ter**ra0.org/)
+* [A Tool to Deceive and Slaughter - "Perpetual online auction"](http://caleblarsen.com/a-tool-to-deceive-and-slaughter/)
