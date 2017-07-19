@@ -45,19 +45,19 @@ Kunst.
 
 ### Dramaturgie / Ablauf:
 
-I. 	Vorspiel
+1. Vorspiel
 
 Im Vorspiel wird zum Aufbau der Stimmung für den letztlichen Akt der Zerstörung bzw. dem Zustandekommen eines Tauschgeschäfts eine Ausschreibung
 zur Auswahl der beiden Künstler*innen und deren Werke stattfinden. Evtl. auch eine Abstimmung zur Partizipation der Zuschauer (eventuelle Identifikation
 als Hochschule mit dem Abgesandten). Es werden jeweils ein Portrait/Videobeitrag gedreht zur Person und Arbeit im jeweiligen Dunstkreis des Wirkens und Entstehung.
 Dabei werden auch gleichzeitig die Werke abgeholt und in die Galerie transportiert.
 
-II.	Spektakel
+2. Spektakel
 
 Beim Spektakel handelt es sich um den bedeutungsgebenden Moment. Auf ihn läuft alles zu.
 
 
-III.	Tausch und Zerstörung
+3. Tausch und Zerstörung
 
 (TO DO)
 
