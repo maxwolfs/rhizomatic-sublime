@@ -11,6 +11,7 @@
 
 * [TODO research]
 * [Example code for Etherium-based Smart Contracts](https://www.ethereum.org/token)
+* [AI Generated Music on BlockChain](https://m.heise.de/newsticker/meldung/Kuenstliche-Intelligenz-Fake-Music-auf-dem-Vormarsch-3772188.html)
 
 ### Manifestos of interest
 
