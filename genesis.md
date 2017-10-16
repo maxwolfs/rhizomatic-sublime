@@ -1,6 +1,6 @@
 # Rhizomatic Sublime
 
-Eine Wiese aus Schilfgras und maschinenhaften Agenten im Raum.
+Eine Wiese aus Elefantengras (miscanthus rhizomen) und maschinenhaften Agenten im Raum.
 Windgeneratoren lassen das Gras im Raum bewegen.
 
 [![Rauschen](http://img.youtube.com/vi/_D6Zi9OlUVM/0.jpg)](http://www.youtube.com/watch?v=_D6Zi9OlUVM)
