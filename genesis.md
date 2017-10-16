@@ -42,7 +42,11 @@ stille, stille, lass uns lauschen!
 
 [![MuscleWire](http://img.youtube.com/vi/N188-MJZrzo/0.jpg)](http://www.youtube.com/watch?v=N188-MJZrzo)
 * Gyroskopsensor MPU-6050
-* 2 Achsen Motor Gimbal
+* 2 Achsen Motor Gimbal: http://www.ebay.de/itm/282284267943
 
 [![Gimbal](http://img.youtube.com/vi/7Q9bNwmFeeU/0.jpg)](http://www.youtube.com/watch?v=7Q9bNwmFeeU)
 * optische Echtzeitbewegungserkennung 
+
+## Verwandte Arbeiten
+
+* [Kerstin Ergenzinger / Whiskers in Space](http://www.nodegree.de/works/whiskers/inspace-video.html)
