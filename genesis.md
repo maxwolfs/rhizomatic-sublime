@@ -1,11 +1,9 @@
 Eine Wiese aus Schilfgras und maschinenhaften Agenten im Raum.
 Windgeneratoren lassen das Gras im Raum bewegen.
 
-
 [![Rauschen](http://img.youtube.com/vi/_D6Zi9OlUVM/0.jpg)](http://www.youtube.com/watch?v=_D6Zi9OlUVM)
 [![Wiesensound](http://img.youtube.com/vi/2F16FjGLiO0/0.jpg)](http://www.youtube.com/watch?v=2F16FjGLiO0)
 [![BambusImWind](http://img.youtube.com/vi/X_K-7AV-tl4/0.jpg)](http://www.youtube.com/watch?v=X_K-7AV-tl4)
-
 
 Das Rauschen des Windes legt sich über die sich bewegenden Gräser.
 Die Agenten versuchen die natürlichen Bewegung des Grases nachzuahmen.
@@ -41,4 +39,7 @@ stille, stille, lass uns lauschen!
 ## Technik
 
 * NiTiNol Wire
-* t
+[![MuscleWire](http://img.youtube.com/vi/N188-MJZrzo/0.jpg)](http://www.youtube.com/watch?v=N188-MJZrzo)
+* Gyroskopsensor MPU-6050
+* 2 Achsen Motor
+* optische Echtzeitbewegungserkennung 
