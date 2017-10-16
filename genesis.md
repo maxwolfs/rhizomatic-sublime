@@ -1,8 +1,8 @@
 Eine Wiese aus Schilfgras und maschinenhaften Agenten im Raum.
 Windgeneratoren lassen das Gras im Raum bewegen.
 
-https://www.youtube.com/watch?v=_D6Zi9OlUVM
-https://www.youtube.com/watch?v=2F16FjGLiO0
+[![Rauschen](http://img.youtube.com/vi/_D6Zi9OlUVM/0.jpg)](http://www.youtube.com/watch?v=_D6Zi9OlUVM)
+[![Wiesensound](http://img.youtube.com/vi/2F16FjGLiO0/0.jpg)](http://www.youtube.com/watch?v=2F16FjGLiO0)
 
 Das Rauschen des Windes legt sich über die sich bewegenden Gräser.
 Die Agenten versuchen die natürlichen Bewegung des Grases nachzuahmen.
@@ -16,3 +16,18 @@ genetische Evolution.
 Rauschen akustischer Ebene und Rauschen der Grasbewegung auf visueller Ebene.
 Synästhesie.
 Verstärkung des Erhabenen.
+
+Clemens Brentano
+Liebesnacht im Haine 
+
+Um uns her der Waldnacht heilig Rauschen 
+Und der Büsche abendlich Gebet, 
+Seh ich dich so lieblich bange lauschen 
+Wenn der West durch dürre Blätter weht.
+
+Abendständchen 
+
+Hör, es klagt die Flöte wieder,
+und die kühlen Brunnen rauschen!
+Golden weh'n die Töne nieder,
+stille, stille, lass uns lauschen!
