@@ -49,4 +49,6 @@ stille, stille, lass uns lauschen!
 
 ## Verwandte Arbeiten
 
-* [Kerstin Ergenzinger / Whiskers in Space](http://www.nodegree.de/works/whiskers/inspace-video.html)
+* [![Kerstin Ergenzinger / Whiskers in Space](http://www.nodegree.de/works/whiskers/pics-whiskers/WhiskersSt.Peter03_8.jpg)](http://www.nodegree.de/works/whiskers/inspace-video.html)
+
+* 
