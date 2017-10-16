@@ -5,7 +5,7 @@ Windgeneratoren lassen das Gras im Raum bewegen.
 
 [![Rauschen](http://img.youtube.com/vi/_D6Zi9OlUVM/maxresdefault.jpg)](http://www.youtube.com/watch?v=_D6Zi9OlUVM)
 [![Wiesensound](http://img.youtube.com/vi/2F16FjGLiO0/maxresdefault.jpg)](http://www.youtube.com/watch?v=2F16FjGLiO0)
-[![BambusImWind](http://img.youtube.com/vi/X_K-7AV-tl4/maxresdefault.jpg)](http://www.youtube.com/watch?v=X_K-7AV-tl4)
+[![BambusImWind](http://img.youtube.com/vi/X_K-7AV-tl4/0.jpg)](http://www.youtube.com/watch?v=X_K-7AV-tl4)
 
 Das Rauschen des Windes legt sich über die sich bewegenden Gräser.
 Die Agenten versuchen die natürlichen Bewegung des Grases nachzuahmen.
