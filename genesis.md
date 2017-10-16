@@ -51,8 +51,38 @@ stille, stille, lass uns lauschen!
 
 * optische Echtzeitbewegungserkennung 
 
+## Spielarten
+
+* Pflanzenwachstum als Faktor
+
 ## Verwandte Arbeiten
 
 * [![Kerstin Ergenzinger / Whiskers in Space](http://www.nodegree.de/works/whiskers/pics-whiskers/WhiskersSt.Peter03_8.jpg)](http://www.nodegree.de/works/whiskers/inspace-video.html)
 
 * 
+
+# Proposal in English
+
+A meadow of elephant grass (miscanthus rhizomen) sways in light currents.
+Embedded in the green thicket imitations of grass try to hide their mechanical otherness.
+They are tricky, mimicking their natural environment.
+Lurking for their conspecifics, the agents are searching for patterns, for information that reveals exceptional artificiality in their surrounding.
+Agents punish their rhizomaticly connected cohabitants for misbehavior, the ones diverging from the natural normal.
+An artificial species tries to vanish in sensorial noise, leaving behind their machine-like corporeality, becoming sublime.
+
+The noise of whispering leaves sets emerges from the moving meadow.
+Agents try to mimic natural movement of grass.
+Their aim:
+1. Mimicry. Dissappear in Nature.
+2. Identification. Eliminate Otherness.
+3. Evolution. Spread knowledge to the rhizome.
+
+Noise as a non-signal and noise a sound: synaesthesia.
+
+Clemens Brentano
+Liebesnacht im Haine 
+
+Um uns her der Waldnacht heilig Rauschen 
+Und der Büsche abendlich Gebet, 
+Seh ich dich so lieblich bange lauschen 
+Wenn der West durch dürre Blätter weht.
