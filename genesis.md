@@ -42,11 +42,13 @@ stille, stille, lass uns lauschen!
 
 * NiTiNol Wire
 
-[![MuscleWire](http://img.youtube.com/vi/N188-MJZrzo/maxresdefault.jpg)](http://www.youtube.com/watch?v=N188-MJZrzo)
+[![MuscleWire](http://img.youtube.com/vi/N188-MJZrzo/0.jpg)](http://www.youtube.com/watch?v=N188-MJZrzo)
+
 * Gyroskopsensor MPU-6050
 * 2 Achsen Motor Gimbal: http://www.ebay.de/itm/282284267943
 
-[![Gimbal](http://img.youtube.com/vi/7Q9bNwmFeeU/maxresdefault.jpg)](http://www.youtube.com/watch?v=7Q9bNwmFeeU)
+ [![Gimbal](http://img.youtube.com/vi/7Q9bNwmFeeU/0.jpg)](http://www.youtube.com/watch?v=7Q9bNwmFeeU)
+
 * optische Echtzeitbewegungserkennung 
 
 ## Verwandte Arbeiten
