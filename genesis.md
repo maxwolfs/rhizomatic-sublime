@@ -86,3 +86,7 @@ Um uns her der Waldnacht heilig Rauschen
 Und der Büsche abendlich Gebet, 
 Seh ich dich so lieblich bange lauschen 
 Wenn der West durch dürre Blätter weht.
+
+![Elephant grass](https://wrightouttanowhere.files.wordpress.com/2014/04/dsc02043.jpg)
+![Nitinol](https://farm9.staticflickr.com/8005/7500411546_f5892b9f0c_b.jpg)
+![Wind machine](https://www.bresser.de/out/pictures/master/product/1/1ddd54ab622a29ac4930d067225a9793_ventilator_m.jpg)
