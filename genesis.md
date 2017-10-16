@@ -42,5 +42,7 @@ stille, stille, lass uns lauschen!
 
 [![MuscleWire](http://img.youtube.com/vi/N188-MJZrzo/0.jpg)](http://www.youtube.com/watch?v=N188-MJZrzo)
 * Gyroskopsensor MPU-6050
-* 2 Achsen Motor
+* 2 Achsen Motor Gimbal
+
+[![Gimbal](http://img.youtube.com/vi/7Q9bNwmFeeU/0.jpg)](http://www.youtube.com/watch?v=7Q9bNwmFeeU)
 * optische Echtzeitbewegungserkennung 
