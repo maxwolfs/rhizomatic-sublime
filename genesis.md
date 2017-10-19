@@ -59,7 +59,7 @@ stille, stille, lass uns lauschen!
 
 * [![Kerstin Ergenzinger / Whiskers in Space](http://www.nodegree.de/works/whiskers/pics-whiskers/WhiskersSt.Peter03_8.jpg)](http://www.nodegree.de/works/whiskers/inspace-video.html)
 
-* 
+* Shawn Decker - Prairie: https://vimeo.com/77759818
 
 # Proposal in English
 
