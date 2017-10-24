@@ -68,7 +68,7 @@ stille, stille, lass uns lauschen!
 
 # Proposal in English
 
-A meadow of elephant grass (miscanthus rhizomen) sways in light currents.
+A meadow of elephant grass (miscanthus rhizomen) sways in airy currents.
 Embedded in the green thicket imitations of grass try to hide their mechanical otherness.
 They are tricky, mimicking their natural environment.
 Lurking for their conspecifics, the agents are searching for patterns, for information that reveals exceptional artificiality in their surrounding.
