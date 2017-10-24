@@ -20,6 +20,11 @@ Rauschen akustischer Ebene und Rauschen der Grasbewegung auf visueller Ebene.
 Synästhesie.
 Verstärkung des Erhabenen.
 
+## Why
+
+Die Menschheit ist von AI befallen. In die DNA wurde von Millionen von Jahren der Fortschrittsgedanke
+eingepflanzt mit dem Ziel Individuen und Organisationsformen zu entwickeln, damit wir diese exterrestrische künstliche Intelligenz reproduzieren können.
+
 ## Romantische Lyrik
 
 Clemens Brentano
