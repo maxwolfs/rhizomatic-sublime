@@ -3,6 +3,7 @@
 Von Maschinen die Natur sein wollten
 Maximilian Wolfs / Alexander Lehmann
 
+
 ## Concept
 
 A meadow of elephant grass (miscanthus rhizomen) sways in airy currents.
@@ -20,11 +21,12 @@ The noise of whispering leaves sets emerges from the moving meadow.
 Agents try to mimic natural movement of grass.
 Their aim:
 
-I.	 Mimicry. Dissappear in Nature.
+I.	 Mimicry. Disappear in Nature.
 II.	 Identification. Eliminate Otherness.
 III.	 Evolution. Spread knowledge to the rhizome.
 
 Noise as non-signal and noise as sound: synaesthesia.
+
 
 ## Background
 
@@ -34,10 +36,12 @@ and nature being pushed back more and more our cultural environment, the diversi
 is reduced dramatically. In this setting we implement our poetic fiction of machines desiring to
 act as nature, a plant and not as robotic worker in the duty of mankind.
 
+
 ## Installation
 
 The final result will be an installation, 
 a hybrid landscape constituted by machinic agents and plants.
+
 
 ## Why do we need Funding
 
@@ -46,8 +50,8 @@ Machine Learning and Electro-mechanical Agents, software and hardware.
 With the software being open source, the hardware for multiple agents produces
 a high demand for parts that will be the subject of funding.
 
-## Roadmap
 
+## Roadmap
 
 Month | What 
 --- | --- 
@@ -62,10 +66,10 @@ April | Final installation
 
 Material | €
 --- | --- 
-Nitinol Wire + Equipment | 300€
-Plants | 400€
-Fans | 200€
-Wires, etc. | 100€
-Electronics | 500€
+Nitinol Wire + Equipment | 300 €
+Plants | 400 €
+Fans | 200 €
+Wires, etc. | 100 €
+Electronics | 500 €
 
 
