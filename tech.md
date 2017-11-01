@@ -1,6 +1,7 @@
 ## Nitinol
 
 * [Material Bearbeitung](https://confluentmedical.com/tech-center/nitinol-facts/)
+<<<<<<< HEAD
 
 
 ##
@@ -13,3 +14,6 @@
 * [Space Junk](http://www.dwbowen.com/spacejunk)
 * [Telepresent Wind](http://www.dwbowen.com/telepresent-wind)
 * [Black Flags](https://www.youtube.com/watch?v=6XVrrmm9jno)
+=======
+* [Nitinol Lines](http://www.ebay.de/itm/Muscle-Wire-with-Ring-Terminal-Light-Stitches-Nitinol/301724584869)
+>>>>>>> f68de33dd80877180bdcd7ed128cdc1915dd5a95
