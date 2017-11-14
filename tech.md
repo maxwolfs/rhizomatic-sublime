@@ -8,6 +8,7 @@
 ## Mechanics
 
 * [Pan-Tilt-Rotate-Einheiten](https://nodna.de/Pan-Tilt-Rotate-Einheiten)
+* [Measuring photosynthesis](http://www.vision-systems.com/articles/2014/06/vision-system-measures-intensity-of-photosynthesis-in-plants.html)
 
 
 ## Machine Learning
