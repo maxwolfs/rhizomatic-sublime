@@ -4,3 +4,4 @@
 * [fiberglass installation artist](http://carlobernardini.carlobernardini.it/eng/)
 * [visual introduction to machine learning](http://www.r2d3.us/visuelle-einfuehrung-ins-maschinelle-lernen-teil-1/)
 * [wind sensor work](https://vimeo.com/41744045)
+* [interaction i installation](http://www.rlfbckr.org/work/interface-i/)
