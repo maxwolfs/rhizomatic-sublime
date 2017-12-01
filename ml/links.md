@@ -2,3 +2,5 @@
 * [3D Visualiations of Neural Nets](https://www.youtube.com/watch?v=3JQ3hYko51Y)
 * [mouse brain 3d brain visualiation](https://www.youtube.com/watch?v=vbLtLYkW6hI)
 * [fiberglass installation artist](http://carlobernardini.carlobernardini.it/eng/)
+* [visual introduction to machine learning](http://www.r2d3.us/visuelle-einfuehrung-ins-maschinelle-lernen-teil-1/)
+* [wind sensor work](https://vimeo.com/41744045)
