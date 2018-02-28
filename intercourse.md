@@ -69,5 +69,6 @@ card =  {
 | LEDs | ~XX,xx | 
 | Transistoren? | ~XX,xx | 
 | Voltage Regulators | ~XX,xx | 
+| Verpackungen | ~XX,xx | 
 | __GESAMT__ | __~XX,xx__ |
 
