@@ -21,6 +21,7 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * ESP-32 (https://tinyurl.com/yadrkr9d) sendet Daten zur Blockchain und received Verification
 * Super-Cap (https://tinyurl.com/y7quk3u3) lädt sich nur bei erfolgreichem (von beiden Cards verifiziertem Intercourse) Intercourse auf. “1 Ladung pro Intercourse”
 * Voltage Regulator Input: 2-5.5V Output: 2.7V
+* Transistor zur Bestimmung ob Ladung des Kondensators oder Pairing
 * LEDs
 * Magnete
 
