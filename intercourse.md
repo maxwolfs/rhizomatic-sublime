@@ -61,4 +61,13 @@ card =  {
 
 ## Budget 
 
+| What        | Amount  | 
+| ------------- |:-------------:|
+| PCBs x50  | ~75,00 € incl. Zoll + EUSt | 
+| ESP-32s | ~XX,xx |
+| SuperCaps | ~XX,xx |
+| LEDs | ~XX,xx | 
+| Transistoren? | ~XX,xx | 
+| Voltage Regulators | ~XX,xx | 
+| __GESAMT__ | __~XX,xx__ |
 
