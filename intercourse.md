@@ -17,9 +17,12 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 
 ## Hardware
 
-* USB-A Anschluss zum Aufladen eines superflachen Super Caps als Stromversorgung.
+* USB-A Anschluss zum Aufladen eines superflachen Super Caps als Stromversorgung
+* ESP-32 (https://tinyurl.com/yadrkr9d) sendet Daten zur Blockchain 
+* Super-Cap lädt sich nur bei erfolgreichem (von beiden Cards verifiziertem Intercourse) Intercourse auf
 * “1 Ladung pro Intercourse”
 * Supercap: https://tinyurl.com/y7quk3u3
+* 
 
 ## Wie interagieren die Teile?
 
