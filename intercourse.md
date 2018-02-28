@@ -24,10 +24,11 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * Transistor zur Bestimmung ob Ladung des Kondensators oder Pairing
 * LEDs
 * Magnete
+* PCB mit Siebdruck (uniqude Hash ID der cards generiert Grafik)
 
 ## Wie interagieren die Teile?
 
-* 2 weiße LEDs / Statusanzeige auf Board / Approved und Denial
+* 2 - ? weiße LEDs / Statusanzeige auf Board / Approved, Denial, Serverconnection required, ... ?
 * Intercourse via Magnetarretierung der Cards
 
 ## Data
