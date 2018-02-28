@@ -3,6 +3,7 @@
 ## Karte für (social) intercourse ← wird nicht erklärt!
 
 Single Devices with unique id– Card like format – Schlauchbeutelverpackung – social intercourse interaction
+[old Presentation](https://docs.google.com/presentation/d/1cpQ3VtDt5smEuH57AWrwYjjEIkGQ9L3YSArqFy4ICfg/edit#slide=id.g32697ab881_0_8)
 
 #mystisch #schräg #poppig #cool
 
