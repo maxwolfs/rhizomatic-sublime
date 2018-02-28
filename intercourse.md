@@ -37,3 +37,28 @@ card =  {
 	“id”:”hash”, 
 	“value”:”int” };
 	
+## Timetable
+
+### Deadlines
+
+| What        | When            | 
+| ------------- |:-------------:|
+| PCB Finish Deadline   | 7.3.2018    |
+| Presentation Start    | 6.4.2018    |
+
+### Plan
+
+| Week        | What To Do  | 
+| ------------- |:-------------:|
+| 26.2. - 4.3.  | PCB Design, ESP-32 Tests, Flow Chart | 
+| 5.3. - 11.3.  | Software |
+| 12.3. - 18.3. | Software |
+| 19.3. - 25.3. | ... | 
+| 26.3. - 1.4.  | ... | 
+| 2.4. - 9.4.   | ... | 
+| 10.4. - 17.4. | ... | 
+| 18.4. - 20.4. | ... |
+
+## Budget 
+
+
