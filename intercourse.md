@@ -27,10 +27,20 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * Magnete
 * PCB mit Siebdruck (uniqude Hash ID der cards generiert Grafik)
 
+## Tech
+
+* [ESP-32 Wroom Datasheet](https://www.espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf)
+* [Kondensator Rechner](http://www.elektronik-labor.de/OnlineRechner/Kapazitaet.html)
+* [Super-Cap Tech Sheet](https://www.mouser.de/ProductDetail/81-DMF3Z5R5H474M3DA0)
+
 ## Wie interagieren die Teile?
 
 * 2 - ? weiße LEDs / Statusanzeige auf Board / Approved, Denial, Serverconnection required, ... ?
 * Intercourse via Magnetarretierung der Cards
+
+## Resources / Links
+
+* [LORA WAN Network](https://www.lora-alliance.org/)
 
 ## Data
 
