@@ -27,6 +27,13 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * Magnete
 * PCB mit Siebdruck (uniqude Hash ID der cards generiert Grafik)
 
+### BOM
+
+| Qty | Part | Description | Package | Price | Link | Comment |
+| :--- | :---: | :--- | :--- | :--- | :--- | :--- |
+| 1 | ESP8266EX | mcu | QFN | ? | ? | _ESP8266_ |
+| 1 | Murata DMF 3| 470 mF |  _custom_ | ? | ? | _Supercap_ |
+
 ## Tech
 
 * [ESP-32 Wroom Datasheet](https://www.espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf)
