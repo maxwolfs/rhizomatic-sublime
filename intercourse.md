@@ -40,6 +40,7 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * [Kondensator Rechner](http://www.elektronik-labor.de/OnlineRechner/Kapazitaet.html)
 * [Super-Cap Tech Sheet](https://www.mouser.de/ProductDetail/81-DMF3Z5R5H474M3DA0)
 * [Hardware Guidelines for super cap](https://www.murata.com/~/media/webrenewal/products/capacitor/edlc/techguide/electrical/edlc_technical_note.pdf)
+* [Voltage Regulator 5V -> 2.5V](https://www.mouser.de/ProductDetail/STMicroelectronics/LD1117S25TR?qs=sGAEpiMZZMuXVhsoTePomv6abewqdBmu8)
 
 ## Wie interagieren die Teile?
 
@@ -49,6 +50,10 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 ## Resources / Links
 
 * [LORA WAN Network](https://www.lora-alliance.org/)
+* [ESP8266 SSL / HTTPS](https://github.com/arduino-libraries/ArduinoHttpClient/issues/13)
+* [ESP8266 POST JSON -> Webserver](https://techtutorialsx.com/2017/01/08/esp8266-posting-json-data-to-a-flask-server-on-the-cloud/)
+
+
 
 ## Data
 
