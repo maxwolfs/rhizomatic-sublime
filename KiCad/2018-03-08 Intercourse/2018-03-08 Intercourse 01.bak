@@ -33,6 +33,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:ESP8266
 LIBS:w25q-flash
+LIBS:murata-dmf3-supercap
 LIBS:2018-03-08 Intercourse 01-cache
 EELAYER 25 0
 EELAYER END
@@ -334,4 +335,23 @@ Text Label 3800 3850 3    60   ~ 0
 GND
 Text Label 4050 3850 3    60   ~ 0
 GND
+$Comp
+L DMF3 C?
+U 1 1 5AA8219C
+P 1925 2950
+F 0 "C?" H 1925 3200 60  0000 C CNN
+F 1 "DMF3" H 1925 2700 60  0000 C CNN
+F 2 "" H 1925 2950 60  0001 C CNN
+F 3 "" H 1925 2950 60  0001 C CNN
+	1    1925 2950
+	1    0    0    -1  
+$EndComp
+Text Label 2275 3050 0    60   ~ 0
+GND
+Wire Wire Line
+	2275 3050 2125 3050
+Wire Wire Line
+	2275 2850 2125 2850
+Text Label 2275 2850 0    60   ~ 0
+VRaw
 $EndSCHEMATC

@@ -346,12 +346,31 @@ F 3 "" H 1925 2950 60  0001 C CNN
 	1    1925 2950
 	1    0    0    -1  
 $EndComp
-Text Label 2275 3050 0    60   ~ 0
+Text Label 2500 3225 0    60   ~ 0
+GND
+Text Label 2500 2675 0    60   ~ 0
+VRAW
+Wire Wire Line
+	2125 2850 2125 2675
+Wire Wire Line
+	2125 2675 2500 2675
+Wire Wire Line
+	2500 3225 2125 3225
+Wire Wire Line
+	2125 3225 2125 3050
+$Comp
+L USB_B J?
+U 1 1 5AA82809
+P 1800 1900
+F 0 "J?" H 1600 2350 50  0000 L CNN
+F 1 "USB_B" H 1600 2250 50  0000 L CNN
+F 2 "" H 1950 1850 50  0001 C CNN
+F 3 "" H 1950 1850 50  0001 C CNN
+	1    1800 1900
+	1    0    0    -1  
+$EndComp
+Text Label 1800 2425 3    60   ~ 0
 GND
 Wire Wire Line
-	2275 3050 2125 3050
-Wire Wire Line
-	2275 2850 2125 2850
-Text Label 2275 2850 0    60   ~ 0
-VRaw
+	1800 2425 1800 2300
 $EndSCHEMATC
