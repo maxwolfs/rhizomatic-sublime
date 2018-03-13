@@ -1,4 +1,4 @@
-update=13.03.2018 18:34:39
+update=13.03.2018 19:39:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=C:/dev/rhizomatic-sublime/KiCad/kicad-ESP8266-master/ESP8266
 LibName34=custom libs/w25q-flash
+LibName35=custom libs/murata-dmf3-supercap
