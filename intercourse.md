@@ -69,7 +69,7 @@ card =  {
 
 | What        | When            | 
 | ------------- |:-------------:|
-| PCB Finish Deadline   | 7.3.2018    |
+| PCB Finish Deadline   | 7.3.2018 -> 16.3.2018    |
 | Presentation Start    | 6.4.2018    |
 
 ### Plan
@@ -77,9 +77,9 @@ card =  {
 | Week        | What To Do  | 
 | ------------- |:-------------:|
 | 26.2. - 4.3.  | PCB Design, ESP-32 Tests, Flow Chart | 
-| 5.3. - 11.3.  | Software |
-| 12.3. - 18.3. | Software |
-| 19.3. - 25.3. | ... | 
+| 5.3. - 11.3.  | PCB Design, ESP-8266 Tests, Super Cap Test |
+| 12.3. - 18.3. | PCB Design, ESP-8266 Tests |
+| 19.3. - 25.3. | Software | 
 | 26.3. - 1.4.  | ... | 
 | 2.4. - 9.4.   | ... | 
 | 10.4. - 17.4. | ... | 
