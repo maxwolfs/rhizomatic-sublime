@@ -54,6 +54,7 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * [ESP8266 POST JSON -> Webserver](https://techtutorialsx.com/2017/01/08/esp8266-posting-json-data-to-a-flask-server-on-the-cloud/)
 * [ESP KiCad Library](https://github.com/jdunmire/kicad-ESP8266)
 * [ESP8266EX PCB Design / Layout Examples](http://www.liot.io/hardware/design/)
+* !!! [OFFICIAL ESP8266EX Hardware Design Reference](http://akizukidenshi.com/download/ds/espressifsystems/0B-ESP8266__Hardware_User_Guide__EN_v1.1.pdf)
 
 
 ## Data
