@@ -1,4 +1,4 @@
-update=03/08/18 19:47:43
+update=13.03.2018 18:34:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../kicad-ESP8266-master
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=C:/dev/rhizomatic-sublime/KiCad/kicad-ESP8266-master/ESP8266
+LibName34=custom libs/w25q-flash
