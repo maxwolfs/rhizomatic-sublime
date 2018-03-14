@@ -65,8 +65,10 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * [TI BQ24640 SuperCap Charger IC](http://www.ti.com/product/BQ24640)
 * [High Current Supercapacitor Backup Controller IC](http://www.linear.com/product/LTC3350)
 
+
 * [LiPo Ladegerät mit Balancer - Eigenbau](https://fpv-community.de/showthread.php?64194-LiPo-Ladeger%E4t-mit-Balancer-Eigenbau)
 * [ESP8266 LiPo Power Regulator](https://randomnerdtutorials.com/esp8266-voltage-regulator-lipo-and-li-ion-batteries/)
+* [Equation for calculating supply current from caps](https://electronics.stackexchange.com/questions/240329/using-supercapacitor-as-backup-for-mcu)
 
 #### RF Energy Harvesting
 
