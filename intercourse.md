@@ -49,12 +49,29 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 
 ## Resources / Links
 
+#### ESP8266
+
 * [LORA WAN Network](https://www.lora-alliance.org/)
 * [ESP8266 SSL / HTTPS](https://github.com/arduino-libraries/ArduinoHttpClient/issues/13)
 * [ESP8266 POST JSON -> Webserver](https://techtutorialsx.com/2017/01/08/esp8266-posting-json-data-to-a-flask-server-on-the-cloud/)
 * [ESP KiCad Library](https://github.com/jdunmire/kicad-ESP8266)
 * [ESP8266EX PCB Design / Layout Examples](http://www.liot.io/hardware/design/)
 * !!! [OFFICIAL ESP8266EX Hardware Design Reference](http://akizukidenshi.com/download/ds/espressifsystems/0B-ESP8266__Hardware_User_Guide__EN_v1.1.pdf)
+
+#### Super Capacitors / LiPo / Energy Supply / Balancing
+
+* [Murata LiPo UMAL](https://www.murata.com/~/media/webrenewal/products/smallenergydevice/umal24_datasheet.ashx?la=en-us)
+* [TI BQ33100 SuperCap Controller IC](http://www.ti.com/product/BQ33100)
+* [TI BQ24640 SuperCap Charger IC](http://www.ti.com/product/BQ24640)
+* [High Current Supercapacitor Backup Controller IC](http://www.linear.com/product/LTC3350)
+
+* [LiPo Ladegerät mit Balancer - Eigenbau](https://fpv-community.de/showthread.php?64194-LiPo-Ladeger%E4t-mit-Balancer-Eigenbau)
+* [ESP8266 LiPo Power Regulator](https://randomnerdtutorials.com/esp8266-voltage-regulator-lipo-and-li-ion-batteries/)
+
+#### RF Energy Harvesting
+
+* [Murata: Supercap enables “battery-less” smart card/ID card](https://www.murata.com/~/media/webrenewal/products/capacitor/edlc/appsnote/c2m1cxs443e_appnote_smartcard.ashx?la=en-us)
+* [Energy Harvesting Mouser Article](https://www.mouser.de/applications/rf_energy_harvesting/)
 
 
 ## Data
