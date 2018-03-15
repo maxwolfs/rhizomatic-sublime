@@ -65,6 +65,7 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * [TI BQ24640 SuperCap Charger IC](http://www.ti.com/product/BQ24640)
 * [High Current Supercapacitor Backup Controller IC](http://www.linear.com/product/LTC3350)
 * [LTC3225 - 150mA Supercapacitor Charger](http://www.linear.com/product/LTC3225)
+* [TPS6122x Low Input Voltage, 0.7V Boost Converter](http://www.ti.com/lit/ds/slvs776b/slvs776b.pdf)
 
 
 * [LiPo Ladegerät mit Balancer - Eigenbau](https://fpv-community.de/showthread.php?64194-LiPo-Ladeger%E4t-mit-Balancer-Eigenbau)
