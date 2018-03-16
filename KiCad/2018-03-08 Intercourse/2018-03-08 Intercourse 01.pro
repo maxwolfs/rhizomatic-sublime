@@ -1,4 +1,4 @@
-update=15.03.2018 14:02:07
+update=16.03.2018 13:55:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,4 @@ LibName33=C:/dev/rhizomatic-sublime/KiCad/kicad-ESP8266-master/ESP8266
 LibName34=custom libs/w25q-flash
 LibName35=custom libs/murata-dmf3-supercap
 LibName36=custom libs/LTC3225
+LibName37=custom libs/TPS61221DCKR
