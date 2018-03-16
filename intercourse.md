@@ -66,8 +66,6 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * [High Current Supercapacitor Backup Controller IC](http://www.linear.com/product/LTC3350)
 * [LTC3225 - 150mA Supercapacitor Charger](http://www.linear.com/product/LTC3225)
 * [TPS6122x Low Input Voltage, 0.7V Boost Converter](http://www.ti.com/lit/ds/slvs776b/slvs776b.pdf)
-
-
 * [LiPo Ladegerät mit Balancer - Eigenbau](https://fpv-community.de/showthread.php?64194-LiPo-Ladeger%E4t-mit-Balancer-Eigenbau)
 * [ESP8266 LiPo Power Regulator](https://randomnerdtutorials.com/esp8266-voltage-regulator-lipo-and-li-ion-batteries/)
 * [Equation for calculating supply current from caps](https://electronics.stackexchange.com/questions/240329/using-supercapacitor-as-backup-for-mcu)
@@ -81,41 +79,40 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 ## Data
 
 card =  {
-	“id”:”hash”, 
+	“id”:”hash”,
 	“value”:”int” };
-	
+
 ## Timetable
 
 ### Deadlines
 
-| What        | When            | 
+| What        | When            |
 | ------------- |:-------------:|
 | PCB Finish Deadline   | 7.3.2018 -> 16.3.2018    |
 | Presentation Start    | 6.4.2018    |
 
 ### Plan
 
-| Week        | What To Do  | 
+| Week        | What To Do  |
 | ------------- |:-------------:|
-| 26.2. - 4.3.  | PCB Design, ESP-32 Tests, Flow Chart | 
+| 26.2. - 4.3.  | PCB Design, ESP-32 Tests, Flow Chart |
 | 5.3. - 11.3.  | PCB Design, ESP-8266 Tests, Super Cap Test |
 | 12.3. - 18.3. | PCB Design, ESP-8266 Tests |
-| 19.3. - 25.3. | Software | 
-| 26.3. - 1.4.  | ... | 
-| 2.4. - 9.4.   | ... | 
-| 10.4. - 17.4. | ... | 
+| 19.3. - 25.3. | Software |
+| 26.3. - 1.4.  | ... |
+| 2.4. - 9.4.   | ... |
+| 10.4. - 17.4. | ... |
 | 18.4. - 20.4. | ... |
 
-## Budget 
+## Budget
 
-| What        | Amount  | 
+| What        | Amount  |
 | ------------- |:-------------:|
-| PCBs x50  | ~75,00 € incl. Zoll + EUSt | 
+| PCBs x50  | ~75,00 € incl. Zoll + EUSt |
 | ESP-32s | ~XX,xx |
 | SuperCaps | ~XX,xx |
-| LEDs | ~XX,xx | 
-| Transistoren? | ~XX,xx | 
-| Voltage Regulators | ~XX,xx | 
-| Verpackungen | ~XX,xx | 
+| LEDs | ~XX,xx |
+| Transistoren? | ~XX,xx |
+| Voltage Regulators | ~XX,xx |
+| Verpackungen | ~XX,xx |
 | __GESAMT__ | __~XX,xx__ |
-
