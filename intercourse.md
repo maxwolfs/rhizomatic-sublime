@@ -56,6 +56,7 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * [ESP KiCad Library](https://github.com/jdunmire/kicad-ESP8266)
 * [ESP8266EX PCB Design / Layout Examples](http://www.liot.io/hardware/design/)
 * __[OFFICIAL ESP8266EX Hardware Design Reference](http://akizukidenshi.com/download/ds/espressifsystems/0B-ESP8266__Hardware_User_Guide__EN_v1.1.pdf)__
+* [Programming ESP8266](https://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/)
 
 #### Super Capacitors / LiPo / Energy Supply / Balancing
 
