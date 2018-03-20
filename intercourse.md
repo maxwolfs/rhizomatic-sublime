@@ -117,3 +117,17 @@ card =  {
 | Voltage Regulators | ~XX,xx |
 | Verpackungen | ~XX,xx |
 | __GESAMT__ | __~XX,xx__ |
+
+# TODO
+
+* Schematic
+* BOM
+* PCB Layout
+* Design Artwork
+* Printing Artwork
+* Design Manual
+* Printing Manual
+* Design Packaging
+* Printing Packaging
+* Software Cards
+* Software Cloud
