@@ -29,10 +29,7 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 
 ### BOM
 
-| Qty | Part | Description | Package | Price | Comment | Link |
-| :---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | ESP8266EX | MCU | QFN | 1.31 € | ESP | [Mouser](https://www.mouser.de/ProductDetail/Espressif-Systems/ESP8266EX?qs=sGAEpiMZZMve4%2fbfQkoj%252bGif8WCprhV4ngk1mHM9Xjs%3d) |
-| 1 | Murata DMF 3| 470 mF |  _custom_ | 5.85 € | | [Mouser](https://www.mouser.de/ProductDetail/Murata-Electronics/DMF3Z5R5H474M3DTA0?qs=sGAEpiMZZMsCu9HefNWqpow%252bJity0uDxL9hAWoIDD1A%3d) |
+-> [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=86460eb120)
 
 ## Tech
 * [ESP-32 Wroom Datasheet](https://www.espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf)
