@@ -332,7 +332,7 @@ F 3 "" H 4250 8600 50  0001 C CNN
 $EndComp
 NoConn ~ 2600 7100
 NoConn ~ 2600 7000
-NoConn ~ 4800 6600
+NoConn ~ 4750 6600
 Text Notes 6300 5300 0    60   Italic 0
 Inter-Card\nConnector
 $Comp
@@ -514,12 +514,12 @@ $EndComp
 $Comp
 L VDD #PWR?
 U 1 1 5AB0F171
-P 6100 4800
-F 0 "#PWR?" H 6100 4650 50  0001 C CNN
-F 1 "VDD" H 6100 4950 50  0000 C CNN
-F 2 "" H 6100 4800 50  0001 C CNN
-F 3 "" H 6100 4800 50  0001 C CNN
-	1    6100 4800
+P 6100 4700
+F 0 "#PWR?" H 6100 4550 50  0001 C CNN
+F 1 "VDD" H 6100 4850 50  0000 C CNN
+F 2 "" H 6100 4700 50  0001 C CNN
+F 3 "" H 6100 4700 50  0001 C CNN
+	1    6100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -875,8 +875,6 @@ Wire Wire Line
 	4750 6800 6100 6800
 Wire Wire Line
 	4750 6700 5400 6700
-Wire Wire Line
-	4750 6600 4800 6600
 Wire Wire Line
 	3800 5200 3900 5200
 Wire Wire Line
