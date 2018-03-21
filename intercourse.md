@@ -29,10 +29,7 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 
 ### BOM
 
-| Qty | Part | Description | Package | Price | Comment | Link |
-| :---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | ESP8266EX | MCU | QFN | 1.31 € | ESP | [Mouser](https://www.mouser.de/ProductDetail/Espressif-Systems/ESP8266EX?qs=sGAEpiMZZMve4%2fbfQkoj%252bGif8WCprhV4ngk1mHM9Xjs%3d) |
-| 1 | Murata DMF 3| 470 mF |  _custom_ | 5.85 € | | [Mouser](https://www.mouser.de/ProductDetail/Murata-Electronics/DMF3Z5R5H474M3DTA0?qs=sGAEpiMZZMsCu9HefNWqpow%252bJity0uDxL9hAWoIDD1A%3d) |
+-> [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=86460eb120)
 
 ## Tech
 * [ESP-32 Wroom Datasheet](https://www.espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf)
@@ -58,6 +55,12 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * __[OFFICIAL ESP8266EX Hardware Design Reference](http://akizukidenshi.com/download/ds/espressifsystems/0B-ESP8266__Hardware_User_Guide__EN_v1.1.pdf)__
 * [Programming ESP8266](https://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/)
 * [Example Layout by Sparkfun](https://www.sparkfun.com/products/13231) and [Schematic](https://cdn.sparkfun.com/datasheets/Wireless/WiFi/SparkFun_ESP8266_Thing.pdf)
+
+#### ESP8266 FLASH / EEPROM
+
+* [How to save variable into flash](https://github.com/esp8266/Arduino/issues/1537)
+* [FLASH - User data storage](https://bbs.espressif.com/viewtopic.php?t=698)
+* [Save ESP8266EX RAM with PROGMEM](https://www.espressif.com/sites/default/files/documentation/save_esp8266ex_ram_with_progmem_en.pdf)
 
 #### Super Capacitors / LiPo / Energy Supply / Balancing
 
