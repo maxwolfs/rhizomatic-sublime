@@ -59,6 +59,12 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * [Programming ESP8266](https://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/)
 * [Example Layout by Sparkfun](https://www.sparkfun.com/products/13231) and [Schematic](https://cdn.sparkfun.com/datasheets/Wireless/WiFi/SparkFun_ESP8266_Thing.pdf)
 
+#### ESP8266 FLASH / EEPROM
+
+* [How to save variable into flash](https://github.com/esp8266/Arduino/issues/1537)
+* [FLASH - User data storage](https://bbs.espressif.com/viewtopic.php?t=698)
+* [Save ESP8266EX RAM with PROGMEM](https://www.espressif.com/sites/default/files/documentation/save_esp8266ex_ram_with_progmem_en.pdf)
+
 #### Super Capacitors / LiPo / Energy Supply / Balancing
 
 * [Murata LiPo UMAL](https://www.murata.com/~/media/webrenewal/products/smallenergydevice/umal24_datasheet.ashx?la=en-us)
