@@ -404,8 +404,6 @@ F 3 "" H 4150 8500 50  0001 C CNN
 $EndComp
 Text Notes 1400 6100 2    60   ~ 12
 ?
-Text Notes 5200 5200 2    60   ~ 12
-?
 $Comp
 L R R?
 U 1 1 5AB01E0B
@@ -608,12 +606,12 @@ $EndComp
 $Comp
 L VDD #PWR?
 U 1 1 5AB0F171
-P 5600 5000
-F 0 "#PWR?" H 5600 4850 50  0001 C CNN
-F 1 "VDD" H 5600 5150 50  0000 C CNN
-F 2 "" H 5600 5000 50  0001 C CNN
-F 3 "" H 5600 5000 50  0001 C CNN
-	1    5600 5000
+P 5500 4900
+F 0 "#PWR?" H 5500 4750 50  0001 C CNN
+F 1 "VDD" H 5500 5050 50  0000 C CNN
+F 2 "" H 5500 4900 50  0001 C CNN
+F 3 "" H 5500 4900 50  0001 C CNN
+	1    5500 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -762,12 +760,12 @@ $EndComp
 $Comp
 L R R?
 U 1 1 5AB249C6
-P 5500 5350
-F 0 "R?" V 5400 5500 50  0000 C CNN
-F 1 "10K" V 5400 5300 50  0000 C CNN
-F 2 "" V 5430 5350 50  0001 C CNN
-F 3 "" H 5500 5350 50  0001 C CNN
-	1    5500 5350
+P 5500 5250
+F 0 "R?" V 5400 5350 50  0000 C CNN
+F 1 "10K" V 5400 5200 50  0000 C CNN
+F 2 "" V 5430 5250 50  0001 C CNN
+F 3 "" H 5500 5250 50  0001 C CNN
+	1    5500 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -784,13 +782,13 @@ $EndComp
 $Comp
 L C_Small C?
 U 1 1 5AB287B2
-P 5200 5400
-F 0 "C?" H 5300 5400 50  0000 L CNN
-F 1 "1μF" H 5300 5300 50  0000 L CNN
-F 2 "" H 5200 5400 50  0001 C CNN
-F 3 "" H 5200 5400 50  0001 C CNN
-	1    5200 5400
-	-1   0    0    1   
+P 5300 5600
+F 0 "C?" V 5350 5650 50  0000 L CNN
+F 1 "1μF" V 5450 5550 50  0000 L CNN
+F 2 "" H 5300 5600 50  0001 C CNN
+F 3 "" H 5300 5600 50  0001 C CNN
+	1    5300 5600
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1100 2600 1100 2700
@@ -871,13 +869,13 @@ Wire Wire Line
 Wire Wire Line
 	6600 2500 6700 2500
 Wire Wire Line
-	6700 2900 6700 2700
+	6700 2500 6700 2700
 Wire Wire Line
-	6700 2700 6700 2500
+	6700 2700 6700 2900
 Wire Wire Line
-	5200 2900 5400 2900
+	6700 2900 5400 2900
 Wire Wire Line
-	5400 2900 6700 2900
+	5400 2900 5200 2900
 Wire Wire Line
 	5400 2900 5400 2400
 Wire Wire Line
@@ -1028,15 +1026,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 6100 3900 6100
 Wire Wire Line
-	5600 5400 5800 5400
-Wire Wire Line
 	5600 5500 5800 5500
-Wire Wire Line
-	5100 5600 5200 5600
-Wire Wire Line
-	5200 5600 5500 5600
-Wire Wire Line
-	5500 5600 5800 5600
 Wire Wire Line
 	4200 5700 4200 6100
 Wire Wire Line
@@ -1079,10 +1069,6 @@ Wire Wire Line
 	3800 1600 3800 1700
 Wire Wire Line
 	1100 3700 1100 3800
-Wire Wire Line
-	5600 5000 5600 5100
-Wire Wire Line
-	5600 5100 5600 5400
 Wire Wire Line
 	1100 5700 1100 5600
 Wire Wire Line
@@ -1156,7 +1142,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 5000 3400 5200
 Wire Wire Line
-	5100 5900 5800 5900
+	4800 5900 5800 5900
 Wire Wire Line
 	4500 5000 4500 5100
 Connection ~ 4100 5000
@@ -1175,16 +1161,11 @@ Wire Wire Line
 	3900 5700 3200 5700
 Connection ~ 3200 5700
 Wire Wire Line
-	5200 5600 5200 5500
-Connection ~ 5200 5600
+	5500 4900 5500 5000
 Wire Wire Line
-	5500 5200 5500 5100
+	5500 5000 5500 5100
 Wire Wire Line
-	5500 5100 5600 5100
-Connection ~ 5600 5100
-Wire Wire Line
-	5500 5500 5500 5600
-Connection ~ 5500 5600
+	5500 5400 5500 5600
 Wire Wire Line
 	3500 6350 3500 6200
 Wire Wire Line
@@ -1196,12 +1177,40 @@ Wire Wire Line
 Connection ~ 3600 6200
 Text Notes 1400 9200 0    60   Italic 12
 Todo:\n* Status LEDs\n* USB Conn Check\n* Reset
-Text GLabel 5100 5900 0    60   Input ~ 0
+Text GLabel 4800 5900 0    60   Input ~ 0
 FLASH
-Text GLabel 5100 5600 0    60   Input ~ 0
+Text GLabel 4800 5600 0    60   Input ~ 0
 RST
 Text GLabel 4100 8100 2    60   Input ~ 0
 FLASH
 Text GLabel 3300 6200 1    60   Input ~ 0
 RST
+$Comp
+L R R?
+U 1 1 5AB29192
+P 5100 5250
+F 0 "R?" V 5000 5350 50  0000 C CNN
+F 1 "10K" V 5000 5200 50  0000 C CNN
+F 2 "" V 5030 5250 50  0001 C CNN
+F 3 "" H 5100 5250 50  0001 C CNN
+	1    5100 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5100 5100 5000
+Wire Wire Line
+	5100 5400 5100 5600
+Wire Wire Line
+	4800 5600 5100 5600
+Wire Wire Line
+	5100 5600 5200 5600
+Connection ~ 5100 5600
+Wire Wire Line
+	5400 5600 5500 5600
+Wire Wire Line
+	5500 5600 5800 5600
+Connection ~ 5500 5600
+Wire Wire Line
+	5100 5000 5500 5000
+Connection ~ 5500 5000
 $EndSCHEMATC
