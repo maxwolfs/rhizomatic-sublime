@@ -1,4 +1,4 @@
-update=19.03.2018 17:36:33
+update=21.03.2018 16:12:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,4 +67,3 @@ LibName35=custom libs/w25q-flash
 LibName36=custom libs/murata-dmf3-supercap
 LibName37=custom libs/LTC3225
 LibName38=custom libs/TPS61221DCKR
-LibName39=custom libs/c_gpio
