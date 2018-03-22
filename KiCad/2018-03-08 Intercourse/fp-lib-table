@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name ESP8266)(type KiCad)(uri C:/dev/rhizomatic-sublime/KiCad/kicad-ESP8266-master/ESP8266.pretty)(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/custom libs/ESP8266/ESP8266.pretty")(options "")(descr ""))
+  (lib (name MyAntennas)(type KiCad)(uri "$(KIPRJMOD)/custom libs/PCB_Antenna/MyAntennas.pretty")(options "")(descr ""))
 )
