@@ -1,4 +1,4 @@
-update=21.03.2018 16:12:43
+update=03/22/18 16:33:45
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,8 +62,8 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
-LibName34=C:/dev/rhizomatic-sublime/KiCad/kicad-ESP8266-master/ESP8266
-LibName35=custom libs/w25q-flash
-LibName36=custom libs/murata-dmf3-supercap
-LibName37=custom libs/LTC3225
-LibName38=custom libs/TPS61221DCKR
+LibName34=custom libs/w25q-flash
+LibName35=custom libs/murata-dmf3-supercap
+LibName36=custom libs/LTC3225
+LibName37=custom libs/TPS61221DCKR
+LibName38=custom libs/ESP8266/ESP8266
