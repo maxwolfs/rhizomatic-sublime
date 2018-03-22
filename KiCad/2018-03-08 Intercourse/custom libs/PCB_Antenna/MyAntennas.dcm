@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AN91445
+F C:/KiCAD/MyLibs/Datasheets/AN91445.pdf
+$ENDCMP
+#
+$CMP DM00024648
+F C:/KiCAD/MyLibs/Datasheets/DM00024648.pdf
+$ENDCMP
+#
+$CMP SWRA117D
+F C:/KiCAD/MyLibs/Datasheets/swra117d.pdf
+$ENDCMP
+#
+$CMP SWRA118
+F C:/KiCAD/MyLibs/Datasheets/swra118.pdf
+$ENDCMP
+#
+$CMP SWRU120B
+F C:/KiCAD/MyLibs/Datasheets/swru120b.pdf
+$ENDCMP
+#
+#End Doc Library

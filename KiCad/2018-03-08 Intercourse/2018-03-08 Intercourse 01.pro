@@ -1,4 +1,4 @@
-update=03/22/18 16:33:45
+update=03/22/18 16:41:14
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,4 @@ LibName35=custom libs/murata-dmf3-supercap
 LibName36=custom libs/LTC3225
 LibName37=custom libs/TPS61221DCKR
 LibName38=custom libs/ESP8266/ESP8266
+LibName39=custom libs/PCB_Antenna/MyAntennas
