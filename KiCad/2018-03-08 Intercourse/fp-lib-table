@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/custom libs/ESP8266/ESP8266.pretty")(options "")(descr ""))
   (lib (name MyAntennas)(type KiCad)(uri "$(KIPRJMOD)/custom libs/PCB_Antenna/MyAntennas.pretty")(options "")(descr ""))
+  (lib (name Murata_DMF3Z)(type KiCad)(uri "$(KIPRJMOD)/custom libs/Murata_DMF3Z.pretty")(options "")(descr ""))
+  (lib (name C_Connectors)(type KiCad)(uri "$(KIPRJMOD)/custom libs/C_Connectors.pretty")(options "")(descr ""))
 )
