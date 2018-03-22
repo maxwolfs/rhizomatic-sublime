@@ -55,6 +55,8 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 * __[OFFICIAL ESP8266EX Hardware Design Reference](http://akizukidenshi.com/download/ds/espressifsystems/0B-ESP8266__Hardware_User_Guide__EN_v1.1.pdf)__
 * [Programming ESP8266](https://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/)
 * [Example Layout by Sparkfun](https://www.sparkfun.com/products/13231) and [Schematic](https://cdn.sparkfun.com/datasheets/Wireless/WiFi/SparkFun_ESP8266_Thing.pdf)
+* [Boot Mode Selection](https://github.com/espressif/esptool/wiki/ESP8266-Boot-Mode-Selection)
+* [Pin Definition](https://github.com/esp8266/esp8266-wiki/wiki/Pin-definition)
 
 #### ESP8266 FLASH / EEPROM
 
