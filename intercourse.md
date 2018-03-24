@@ -92,6 +92,9 @@ card =  {
 
 * [Popcorn Design](https://www.trendhunter.com/trends/microwave-popcorn-bag)
 
+## KiCAD
+* [Artworks in KiCAD](https://hackaday.io/project/18508-mr-robot-badge/log/53901-this-is-how-you-do-art-in-kicad)
+
 ### Deadlines
 
 | What        | When            |
