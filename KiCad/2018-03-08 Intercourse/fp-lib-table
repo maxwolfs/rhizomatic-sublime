@@ -4,4 +4,5 @@
   (lib (name Murata_DMF3Z)(type KiCad)(uri "$(KIPRJMOD)/custom libs/Murata_DMF3Z.pretty")(options "")(descr ""))
   (lib (name C_Connectors)(type KiCad)(uri "$(KIPRJMOD)/custom libs/C_Connectors.pretty")(options "")(descr ""))
   (lib (name sc_70-6)(type KiCad)(uri "$(KIPRJMOD)/custom libs/sc_70-6.pretty")(options "")(descr ""))
+  (lib (name shapes)(type KiCad)(uri "$(KIPRJMOD)/shapes")(options "")(descr ""))
 )
