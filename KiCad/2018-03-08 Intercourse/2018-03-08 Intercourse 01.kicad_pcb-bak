@@ -8,7 +8,7 @@
     (drawings 533)
     (tracks 604)
     (zones 0)
-    (modules 48)
+    (modules 49)
     (nets 61)
   )
 
@@ -26,7 +26,7 @@
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
-    (42 Eco1.User user hide)
+    (42 Eco1.User user)
     (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
@@ -2510,6 +2510,20 @@
     (fp_poly (pts (xy -31.044444 -15.662062) (xy -35.087087 -15.662062) (xy -35.087087 -18.840241) (xy -34.985385 -18.840241)
       (xy -34.985385 -15.763764) (xy -31.146146 -15.763764) (xy -31.146146 -18.840241) (xy -34.985385 -18.840241)
       (xy -35.087087 -18.840241) (xy -35.087087 -18.941942) (xy -31.044444 -18.941942) (xy -31.044444 -15.662062)) (layer F.SilkS) (width 0.01))
+  )
+
+  (module shapes:layout_02_back (layer B.Cu) (tedit 0) (tstamp 5AB99F9B)
+    (at 144.78 101.6)
+    (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
+      (effects (font (thickness 0.3)) (justify mirror))
+    )
+    (fp_text value LOGO (at 0.75 0) (layer B.SilkS) hide
+      (effects (font (thickness 0.3)) (justify mirror))
+    )
+    (fp_poly (pts (xy -20.442042 -21.815015) (xy -27.434034 -21.815015) (xy -27.434034 -7.703904) (xy -20.442042 -7.703904)
+      (xy -20.442042 -21.815015)) (layer B.SilkS) (width 0.01))
+    (fp_poly (pts (xy 25.832232 -21.815015) (xy -16.933334 -21.815015) (xy -16.933334 20.950551) (xy 25.832232 20.950551)
+      (xy 25.832232 -21.815015)) (layer B.SilkS) (width 0.01))
   )
 
   (gr_line (start 145.503109 111.544892) (end 145.503109 120.103102) (layer Eco1.User) (width 0.1))
