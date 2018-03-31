@@ -86,7 +86,8 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 
 card =  {
 	“id”:”hash”,
-	“value”:”int” };
+	“value”:”int”
+};
 
 ## Packaging
 
@@ -95,43 +96,10 @@ card =  {
 ## KiCAD
 * [Artworks in KiCAD](https://hackaday.io/project/18508-mr-robot-badge/log/53901-this-is-how-you-do-art-in-kicad)
 
-### Deadlines
-
-| What        | When            |
-| ------------- |:-------------:|
-| PCB Finish Deadline   | 7.3.2018 -> 16.3.2018    |
-| Presentation Start    | 6.4.2018    |
-
-### Plan
-
-| Week        | What To Do  |
-| ------------- |:-------------:|
-| 26.2. - 4.3.  | PCB Design, ESP-32 Tests, Flow Chart |
-| 5.3. - 11.3.  | PCB Design, ESP-8266 Tests, Super Cap Test |
-| 12.3. - 18.3. | PCB Design, ESP-8266 Tests |
-| 19.3. - 25.3. | Software |
-| 26.3. - 1.4.  | ... |
-| 2.4. - 9.4.   | ... |
-| 10.4. - 17.4. | ... |
-| 18.4. - 20.4. | ... |
-
-## Budget
-
-| What        | Amount  |
-| ------------- |:-------------:|
-| PCBs x50  | ~75,00 € incl. Zoll + EUSt |
-| ESP-32s | ~XX,xx |
-| SuperCaps | ~XX,xx |
-| LEDs | ~XX,xx |
-| Transistoren? | ~XX,xx |
-| Voltage Regulators | ~XX,xx |
-| Verpackungen | ~XX,xx |
-| __GESAMT__ | __~XX,xx__ |
-
 # TODO
 
-* Schematic
-* BOM
+* ~~Schematic~~
+* ~~BOM~~
 * PCB Layout
 * Design Artwork
 * Printing Artwork
