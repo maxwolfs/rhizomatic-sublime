@@ -323,7 +323,7 @@ $EndComp
 NoConn ~ 2600 7100
 NoConn ~ 2600 7000
 NoConn ~ 4750 6600
-Text Notes 6300 5300 0    60   Italic 0
+Text Notes 6300 5000 0    60   Italic 0
 Inter-Card\nConnector
 $Comp
 L R R14
@@ -989,7 +989,7 @@ F 3 "" H 6400 6000 50  0001 C CNN
 	1    6200 6000
 	0    1    1    0   
 $EndComp
-Text GLabel 6350 5050 2    60   Input ~ 0
+Text GLabel 6400 5200 2    60   Input ~ 0
 USBRST
 Wire Wire Line
 	4200 2300 4900 2300
@@ -1394,14 +1394,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 6000 6100 6000
 Connection ~ 6100 6000
-Wire Wire Line
-	6100 5250 6250 5250
-Wire Wire Line
-	6250 5250 6250 5050
-Wire Wire Line
-	6250 5050 6350 5050
-Connection ~ 6100 5250
-Text GLabel 1300 5050 0    60   Input ~ 0
+Text GLabel 1300 5050 3    60   Input ~ 0
 USBRST
 Wire Wire Line
 	1200 4950 1500 4950
@@ -1411,4 +1404,11 @@ Wire Wire Line
 Wire Wire Line
 	1400 4800 1400 4950
 Connection ~ 1400 4950
+Wire Wire Line
+	6100 5300 6250 5300
+Wire Wire Line
+	6250 5300 6250 5200
+Wire Wire Line
+	6250 5200 6400 5200
+Connection ~ 6100 5300
 $EndSCHEMATC
