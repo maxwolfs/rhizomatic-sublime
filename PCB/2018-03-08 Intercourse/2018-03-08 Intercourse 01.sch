@@ -729,6 +729,268 @@ F 3 "" H 6400 5900 50  0001 C CNN
 	1    6200 5900
 	0    1    1    0   
 $EndComp
+$Comp
+L GND #PWR025
+U 1 1 5AB029B1
+P 1800 7300
+F 0 "#PWR025" H 1800 7050 50  0001 C CNN
+F 1 "GND" H 1800 7150 50  0000 C CNN
+F 2 "" H 1800 7300 50  0001 C CNN
+F 3 "" H 1800 7300 50  0001 C CNN
+	1    1800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR026
+U 1 1 5AB412D4
+P 5600 3600
+F 0 "#PWR026" H 5600 3450 50  0001 C CNN
+F 1 "VBUS" H 5600 3750 50  0000 C CNN
+F 2 "" H 5600 3600 50  0001 C CNN
+F 3 "" H 5600 3600 50  0001 C CNN
+	1    5600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5AB41B9B
+P 5850 3700
+F 0 "R2" V 5750 3850 50  0000 C CNN
+F 1 "17K" V 5750 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 3700 50  0001 C CNN
+F 3 "" H 5850 3700 50  0001 C CNN
+	1    5850 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5AB429EF
+P 5850 4100
+F 0 "R3" V 5950 4250 50  0000 C CNN
+F 1 "33K" V 5950 4050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 4100 50  0001 C CNN
+F 3 "" H 5850 4100 50  0001 C CNN
+	1    5850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 5AB42A87
+P 5600 4200
+F 0 "#PWR027" H 5600 3950 50  0001 C CNN
+F 1 "GND" H 5600 4050 50  0000 C CNN
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 7300 0    60   Input ~ 0
+USB_PWR
+Text GLabel 6100 3900 0    60   Input ~ 0
+USB_PWR
+Text Notes 6300 4000 0    60   Italic 0
+Check if\nconnected\nto USB
+Text GLabel 3100 2600 3    60   Input ~ 0
+CHARGE_LED
+Text GLabel 1400 9200 3    60   Input ~ 0
+CHARGE_LED
+$Comp
+L R_Small R11
+U 1 1 5AB523B4
+P 2300 8500
+F 0 "R11" H 2350 8550 50  0000 L CNN
+F 1 "?" H 2350 8450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2300 8500 50  0001 C CNN
+F 3 "" H 2300 8500 50  0001 C CNN
+	1    2300 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 5AB523BA
+P 2300 8850
+F 0 "D4" V 2400 8700 50  0000 L CNN
+F 1 "LED" V 2300 8650 50  0000 L CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2300 8850 50  0001 C CNN
+F 3 "" H 2300 8850 50  0001 C CNN
+	1    2300 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R10
+U 1 1 5AB52444
+P 2000 8500
+F 0 "R10" H 2050 8550 50  0000 L CNN
+F 1 "?" H 2050 8450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2000 8500 50  0001 C CNN
+F 3 "" H 2000 8500 50  0001 C CNN
+	1    2000 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 5AB5244A
+P 2000 8850
+F 0 "D3" V 2100 8700 50  0000 L CNN
+F 1 "LED" V 2000 8650 50  0000 L CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 2000 8850 50  0001 C CNN
+F 3 "" H 2000 8850 50  0001 C CNN
+	1    2000 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R9
+U 1 1 5AB53852
+P 1700 8500
+F 0 "R9" H 1750 8550 50  0000 L CNN
+F 1 "?" H 1750 8450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1700 8500 50  0001 C CNN
+F 3 "" H 1700 8500 50  0001 C CNN
+	1    1700 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 5AB53858
+P 1700 8850
+F 0 "D2" V 1800 8700 50  0000 L CNN
+F 1 "LED" V 1700 8650 50  0000 L CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1700 8850 50  0001 C CNN
+F 3 "" H 1700 8850 50  0001 C CNN
+	1    1700 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R8
+U 1 1 5AB538EA
+P 1400 8500
+F 0 "R8" H 1450 8550 50  0000 L CNN
+F 1 "?" H 1450 8450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1400 8500 50  0001 C CNN
+F 3 "" H 1400 8500 50  0001 C CNN
+	1    1400 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5AB538F0
+P 1400 8850
+F 0 "D1" V 1500 8700 50  0000 L CNN
+F 1 "LED" V 1400 8650 50  0000 L CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 1400 8850 50  0001 C CNN
+F 3 "" H 1400 8850 50  0001 C CNN
+	1    1400 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L USB_C_Receptacle J1
+U 1 1 5AB61144
+P 1400 3200
+F 0 "J1" H 1000 4650 50  0000 L CNN
+F 1 "USB_C_Receptacle" H 1800 4650 50  0000 R CNN
+F 2 "Connectors_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1550 3200 50  0001 C CNN
+F 3 "" H 1550 3200 50  0001 C CNN
+	1    1400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR028
+U 1 1 5AB68198
+P 2100 1800
+F 0 "#PWR028" H 2100 1650 50  0001 C CNN
+F 1 "VBUS" H 2100 1950 50  0000 C CNN
+F 2 "" H 2100 1800 50  0001 C CNN
+F 3 "" H 2100 1800 50  0001 C CNN
+	1    2100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 5AB68E3E
+P 1500 5000
+F 0 "#PWR029" H 1500 4750 50  0001 C CNN
+F 1 "GND" H 1500 4850 50  0000 C CNN
+F 2 "" H 1500 5000 50  0001 C CNN
+F 3 "" H 1500 5000 50  0001 C CNN
+	1    1500 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1100 4800
+NoConn ~ 2000 4500
+NoConn ~ 2000 4400
+NoConn ~ 2000 4200
+NoConn ~ 2000 4100
+NoConn ~ 2000 3800
+NoConn ~ 2000 3900
+NoConn ~ 2000 3600
+NoConn ~ 2000 3500
+NoConn ~ 2000 3300
+NoConn ~ 2000 3200
+NoConn ~ 2000 3000
+NoConn ~ 2000 2900
+NoConn ~ 2000 2800
+NoConn ~ 2000 2700
+NoConn ~ 2000 2400
+NoConn ~ 2000 2500
+Text Notes 2100 9700 0    60   Italic 0
+LED\nInterface
+Text Notes 1200 7050 0    30   ~ 0
+0805
+Text Notes 3900 5450 1    30   ~ 0
+±10PPM
+Text Notes 3600 5100 3    30   ~ 0
+±1%
+Text Notes 1300 6400 0    30   ~ 0
+>15mil
+Text Notes 2300 5500 0    30   ~ 0
+>15mil
+Text Notes 4600 8300 0    30   ~ 0
+>15mil
+Text Notes 2200 6250 0    30   ~ 0
+0805
+Text Notes 1800 6450 0    30   ~ 0
+0603\n
+Text Notes 1600 7050 0    30   ~ 0
+0603\n
+Text Notes 3850 4950 0    30   ~ 0
+0603\n
+Text Notes 4050 4950 0    30   ~ 0
+0603\n
+Text Notes 5900 5150 1    30   ~ 0
+0805\n
+Text Notes 5500 7600 0    30   ~ 0
+0805
+Text Notes 4200 9250 0    30   ~ 0
+0805
+Text Notes 2900 8550 0    30   ~ 0
+0805
+Text Notes 2900 8900 0    30   ~ 0
+0805
+Text Notes 6300 4100 0    30   ~ 0
+0805\n
+Text Notes 4750 2700 2    30   ~ 0
+0805\n
+Text Notes 2900 2050 0    30   ~ 0
+X5R/X7R\n0805\n
+Text Notes 3600 3800 0    30   ~ 0
+0805\n
+Text Notes 5400 1500 0    30   ~ 0
+0805\n
+Text Notes 6950 2300 0    30   ~ 0
+0805\n
+$Comp
+L TEST_1P J8
+U 1 1 5AB7C6F7
+P 6200 6000
+F 0 "J8" V 6200 6250 50  0000 C CNN
+F 1 "TP_GND3" V 6200 6350 50  0000 L CNN
+F 2 "C_Connectors:C_Connector_2mm" H 6400 6000 50  0001 C CNN
+F 3 "" H 6400 6000 50  0001 C CNN
+	1    6200 6000
+	0    1    1    0   
+$EndComp
+Text GLabel 6350 5050 2    60   Input ~ 0
+USBRST
 Wire Wire Line
 	4200 2300 4900 2300
 Wire Wire Line
@@ -1038,65 +1300,10 @@ Wire Wire Line
 	2600 8200 4100 8200
 Wire Wire Line
 	5200 7300 5200 6500
-$Comp
-L GND #PWR025
-U 1 1 5AB029B1
-P 1800 7300
-F 0 "#PWR025" H 1800 7050 50  0001 C CNN
-F 1 "GND" H 1800 7150 50  0000 C CNN
-F 2 "" H 1800 7300 50  0001 C CNN
-F 3 "" H 1800 7300 50  0001 C CNN
-	1    1800 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L VBUS #PWR026
-U 1 1 5AB412D4
-P 5600 3600
-F 0 "#PWR026" H 5600 3450 50  0001 C CNN
-F 1 "VBUS" H 5600 3750 50  0000 C CNN
-F 2 "" H 5600 3600 50  0001 C CNN
-F 3 "" H 5600 3600 50  0001 C CNN
-	1    5600 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 5AB41B9B
-P 5850 3700
-F 0 "R2" V 5750 3850 50  0000 C CNN
-F 1 "17K" V 5750 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 3700 50  0001 C CNN
-F 3 "" H 5850 3700 50  0001 C CNN
-	1    5850 3700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5600 3600 5600 3700
 Wire Wire Line
 	5600 3700 5700 3700
-$Comp
-L R R3
-U 1 1 5AB429EF
-P 5850 4100
-F 0 "R3" V 5950 4250 50  0000 C CNN
-F 1 "33K" V 5950 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 4100 50  0001 C CNN
-F 3 "" H 5850 4100 50  0001 C CNN
-	1    5850 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR027
-U 1 1 5AB42A87
-P 5600 4200
-F 0 "#PWR027" H 5600 3950 50  0001 C CNN
-F 1 "GND" H 5600 4050 50  0000 C CNN
-F 2 "" H 5600 4200 50  0001 C CNN
-F 3 "" H 5600 4200 50  0001 C CNN
-	1    5600 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 4100 5600 4200
 Wire Wire Line
@@ -1109,115 +1316,17 @@ Wire Wire Line
 	6200 4100 6000 4100
 Wire Wire Line
 	2600 7300 2500 7300
-Text GLabel 2500 7300 0    60   Input ~ 0
-USB_PWR
-Text GLabel 6100 3900 0    60   Input ~ 0
-USB_PWR
 Wire Wire Line
 	6100 3900 6200 3900
 Connection ~ 6200 3900
-Text Notes 6300 4000 0    60   Italic 0
-Check if\nconnected\nto USB
-Text GLabel 3100 2600 3    60   Input ~ 0
-CHARGE_LED
-Text GLabel 1400 9200 3    60   Input ~ 0
-CHARGE_LED
 Wire Wire Line
 	2600 8600 2600 8700
-$Comp
-L R_Small R11
-U 1 1 5AB523B4
-P 2300 8500
-F 0 "R11" H 2350 8550 50  0000 L CNN
-F 1 "?" H 2350 8450 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2300 8500 50  0001 C CNN
-F 3 "" H 2300 8500 50  0001 C CNN
-	1    2300 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D4
-U 1 1 5AB523BA
-P 2300 8850
-F 0 "D4" V 2400 8700 50  0000 L CNN
-F 1 "LED" V 2300 8650 50  0000 L CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 2300 8850 50  0001 C CNN
-F 3 "" H 2300 8850 50  0001 C CNN
-	1    2300 8850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2300 8600 2300 8700
-$Comp
-L R_Small R10
-U 1 1 5AB52444
-P 2000 8500
-F 0 "R10" H 2050 8550 50  0000 L CNN
-F 1 "?" H 2050 8450 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2000 8500 50  0001 C CNN
-F 3 "" H 2000 8500 50  0001 C CNN
-	1    2000 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D3
-U 1 1 5AB5244A
-P 2000 8850
-F 0 "D3" V 2100 8700 50  0000 L CNN
-F 1 "LED" V 2000 8650 50  0000 L CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 2000 8850 50  0001 C CNN
-F 3 "" H 2000 8850 50  0001 C CNN
-	1    2000 8850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2000 8600 2000 8700
-$Comp
-L R_Small R9
-U 1 1 5AB53852
-P 1700 8500
-F 0 "R9" H 1750 8550 50  0000 L CNN
-F 1 "?" H 1750 8450 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1700 8500 50  0001 C CNN
-F 3 "" H 1700 8500 50  0001 C CNN
-	1    1700 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D2
-U 1 1 5AB53858
-P 1700 8850
-F 0 "D2" V 1800 8700 50  0000 L CNN
-F 1 "LED" V 1700 8650 50  0000 L CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 1700 8850 50  0001 C CNN
-F 3 "" H 1700 8850 50  0001 C CNN
-	1    1700 8850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1700 8600 1700 8700
-$Comp
-L R_Small R8
-U 1 1 5AB538EA
-P 1400 8500
-F 0 "R8" H 1450 8550 50  0000 L CNN
-F 1 "?" H 1450 8450 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1400 8500 50  0001 C CNN
-F 3 "" H 1400 8500 50  0001 C CNN
-	1    1400 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D1
-U 1 1 5AB538F0
-P 1400 8850
-F 0 "D1" V 1500 8700 50  0000 L CNN
-F 1 "LED" V 1400 8650 50  0000 L CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 1400 8850 50  0001 C CNN
-F 3 "" H 1400 8850 50  0001 C CNN
-	1    1400 8850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1400 8600 1400 8700
 Wire Wire Line
@@ -1243,17 +1352,6 @@ Connection ~ 2000 9200
 Wire Wire Line
 	2600 9200 2600 9000
 Connection ~ 2300 9200
-$Comp
-L USB_C_Receptacle J1
-U 1 1 5AB61144
-P 1400 3200
-F 0 "J1" H 1000 4650 50  0000 L CNN
-F 1 "USB_C_Receptacle" H 1800 4650 50  0000 R CNN
-F 2 "Connectors_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1550 3200 50  0001 C CNN
-F 3 "" H 1550 3200 50  0001 C CNN
-	1    1400 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 1900 2100 1900
 Wire Wire Line
@@ -1267,58 +1365,10 @@ Wire Wire Line
 	2100 2200 2000 2200
 Connection ~ 2100 2100
 Wire Wire Line
-	1200 4900 1500 4900
-Wire Wire Line
-	1300 4900 1300 4800
-Wire Wire Line
-	1400 4900 1400 4800
-Connection ~ 1300 4900
-Wire Wire Line
 	1500 4800 1500 5000
-Connection ~ 1400 4900
 Connection ~ 2100 1900
-$Comp
-L VBUS #PWR028
-U 1 1 5AB68198
-P 2100 1800
-F 0 "#PWR028" H 2100 1650 50  0001 C CNN
-F 1 "VBUS" H 2100 1950 50  0000 C CNN
-F 2 "" H 2100 1800 50  0001 C CNN
-F 3 "" H 2100 1800 50  0001 C CNN
-	1    2100 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR029
-U 1 1 5AB68E3E
-P 1500 5000
-F 0 "#PWR029" H 1500 4750 50  0001 C CNN
-F 1 "GND" H 1500 4850 50  0000 C CNN
-F 2 "" H 1500 5000 50  0001 C CNN
-F 3 "" H 1500 5000 50  0001 C CNN
-	1    1500 5000
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1100 4800
-NoConn ~ 2000 4500
-NoConn ~ 2000 4400
-NoConn ~ 2000 4200
-NoConn ~ 2000 4100
-NoConn ~ 2000 3800
-NoConn ~ 2000 3900
-NoConn ~ 2000 3600
-NoConn ~ 2000 3500
-NoConn ~ 2000 3300
-NoConn ~ 2000 3200
-NoConn ~ 2000 3000
-NoConn ~ 2000 2900
-NoConn ~ 2000 2800
-NoConn ~ 2000 2700
-NoConn ~ 2000 2400
-NoConn ~ 2000 2500
 Wire Wire Line
-	1200 4800 1200 4900
-Connection ~ 1500 4900
+	1200 4800 1200 4950
 Wire Wire Line
 	3200 2500 3100 2500
 Wire Wire Line
@@ -1327,8 +1377,6 @@ Wire Wire Line
 	1700 9200 2600 9200
 Wire Wire Line
 	1400 9000 1400 9200
-Text Notes 2100 9700 0    60   Italic 0
-LED\nInterface
 Connection ~ 1800 6800
 Wire Wire Line
 	2400 6800 2400 7200
@@ -1343,62 +1391,24 @@ Wire Wire Line
 	2400 6600 2400 6400
 Wire Wire Line
 	2400 5700 2400 6200
-Text Notes 1200 7050 0    30   ~ 0
-0805
-Text Notes 3900 5450 1    30   ~ 0
-±10PPM
-Text Notes 3600 5100 3    30   ~ 0
-±1%
-Text Notes 1300 6400 0    30   ~ 0
->15mil
-Text Notes 2300 5500 0    30   ~ 0
->15mil
-Text Notes 4600 8300 0    30   ~ 0
->15mil
-Text Notes 2200 6250 0    30   ~ 0
-0805
-Text Notes 1800 6450 0    30   ~ 0
-0603\n
-Text Notes 1600 7050 0    30   ~ 0
-0603\n
-Text Notes 3850 4950 0    30   ~ 0
-0603\n
-Text Notes 4050 4950 0    30   ~ 0
-0603\n
-Text Notes 5900 5150 1    30   ~ 0
-0805\n
-Text Notes 5500 7600 0    30   ~ 0
-0805
-Text Notes 4200 9250 0    30   ~ 0
-0805
-Text Notes 2900 8550 0    30   ~ 0
-0805
-Text Notes 2900 8900 0    30   ~ 0
-0805
-Text Notes 6300 4100 0    30   ~ 0
-0805\n
-Text Notes 4750 2700 2    30   ~ 0
-0805\n
-Text Notes 2900 2050 0    30   ~ 0
-X5R/X7R\n0805\n
-Text Notes 3600 3800 0    30   ~ 0
-0805\n
-Text Notes 5400 1500 0    30   ~ 0
-0805\n
-Text Notes 6950 2300 0    30   ~ 0
-0805\n
-$Comp
-L TEST_1P J8
-U 1 1 5AB7C6F7
-P 6200 6000
-F 0 "J8" V 6200 6250 50  0000 C CNN
-F 1 "TP_GND3" V 6200 6350 50  0000 L CNN
-F 2 "C_Connectors:C_Connector_2mm" H 6400 6000 50  0001 C CNN
-F 3 "" H 6400 6000 50  0001 C CNN
-	1    6200 6000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6200 6000 6100 6000
 Connection ~ 6100 6000
+Wire Wire Line
+	6100 5250 6250 5250
+Wire Wire Line
+	6250 5250 6250 5050
+Wire Wire Line
+	6250 5050 6350 5050
+Connection ~ 6100 5250
+Text GLabel 1300 5050 0    60   Input ~ 0
+USBRST
+Wire Wire Line
+	1200 4950 1500 4950
+Connection ~ 1500 4950
+Wire Wire Line
+	1300 4800 1300 5050
+Wire Wire Line
+	1400 4800 1400 4950
+Connection ~ 1400 4950
 $EndSCHEMATC
