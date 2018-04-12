@@ -47,6 +47,8 @@ Single Devices with unique id– Card like format – Schlauchbeutelverpackung �
 
 #### ESP8266
 
+
+* [RF PCB Layout Guidelines](http://iot-bits.com/simple-rf-pcb-layout-tips-tricks/)
 * [LORA WAN Network](https://www.lora-alliance.org/)
 * [ESP8266 SSL / HTTPS](https://github.com/arduino-libraries/ArduinoHttpClient/issues/13)
 * [ESP8266 POST JSON -> Webserver](https://techtutorialsx.com/2017/01/08/esp8266-posting-json-data-to-a-flask-server-on-the-cloud/)
