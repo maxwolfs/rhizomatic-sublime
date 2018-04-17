@@ -3,9 +3,9 @@
 #include <ArduinoJson.h>
 #include <Bounce2.h>
 
-#define BUTTON_PIN 2
+const byte BUTTON1 = 2;
 
-Bounce debouncer = Bounce(); 
+Bounce debouncer = Bounce();
 
 //Card 1
 String my_id = "f049cd234b5a445766394925a2f0c46961d526f2";
@@ -31,9 +31,12 @@ String available_ids [] =
 
 void setup() {
 
+  pinMode(BUTTON1,INPUT_PULLUP);
+  debouncer.attach(BUTTON1);
+  debouncer.interval(50);
+
   Serial.begin(115200);             //Serial connection
   WiFi.begin("123geheim", "");      //WiFi connection
-  pinMode(BUTTON_PIN,INPUT_PULLUP);
 
   while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection completion
 
@@ -53,14 +56,13 @@ String getRandomId() {
 
 void loop() {
 
-  // Update the Bounce instance :
   debouncer.update();
-
-  // Get the updated value :
   int value = debouncer.read();
+  Serial.println(value);
 
-  // Turn on or off the LED as determined by the state :
-  if ( value == LOW ) {
+  if (debouncer.fell()) {
+
+    Serial.println("Button is LOW");
 
     if (WiFi.status() == WL_CONNECTED) { //Check WiFi connection status
 
@@ -69,7 +71,7 @@ void loop() {
 
       JSONencoder["my_id"] = my_id; // card id
       JSONencoder["secret_key"] = secret_key; // password
-      JSONencoder["other_id"] = getRandomId();
+      JSONencoder["other_id"] = available_ids[1];//getRandomId();
 
 
       char JSONmessageBuffer[300];
@@ -89,19 +91,15 @@ void loop() {
 
       http.end();  //Close connection
 
-    } else {
-
-      Serial.println("Error in WiFi connection");
-
     }
 
-    delay(30000);  //Send a request every 30 seconds
-
-
+    delay(10000);  //Send a request every 30 seconds
 
   }
+
   else {
     //digitalWrite(LED_PIN, LOW );
+    Serial.println("Button is HIGH");
   }
 
 }
