@@ -1,116 +1,98 @@
+let edgeColor = '#777777';
+let nodeColor = '#212121';
+let textColor = '#212121';
+let backgroundColor = '#FAFAFA';
+
 let nodes = [];
+let font;
+
+function preload() {
+  //font = loadFont('assets/font.ttf');
+}
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
-  // let nodeCount = 5;
-  //
-  // for (let i = 0; i < nodeCount; i++) {
-  //   nodes.push(new Node(i.toString()));
-  // }
-  //
-  // for (let i = 0; i < nodes.length; i++) {
-  //   nodes[i].intercourses.push(nodes[(i+1) % nodeCount]);
-  //   nodes[(i+1) % nodeCount].intercourses.push(nodes[i]);
-  // }
-
-  addIntercourse(1, 2);
-  addIntercourse(2, 3);
-  addIntercourse(3, 4);
-  addIntercourse(4, 1);
+  getIntercoursesFromServerInitial();
+  // textFont(font);
 }
 
 function draw() {
-  background('#FAFAFA');
+  background(backgroundColor);
+  Pos.calculateMidpoint();
 
   noStroke();
-  fill('#212121');
+  fill(textColor);
   text("FPS: " + round(frameRate()), 20, 20);
 
-  for (let i = 0; i < nodes.length; i++) {
-    nodes[i].show();
-  }
-
-  for (let i = 0; i < nodes.length; i++) {
-    nodes[i].calculateForce();
-  }
-
-  for (let i = 0; i < nodes.length; i++) {
-    nodes[i].applyForce();
-  }
+  showNodes();
+  computeNodes();
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-class Node {
-  constructor(id) {
-    this.id = id;
-    this.position = createVector(random(1), random(1));
-    this.intercourses = [];
-    this.summedForce = createVector(0, 0);
+function computeNodes() {
+  for (let i = 0; i < nodes.length; i++) {
+    nodes[i].calculateForcePref();
   }
-
-  show() {
-    noStroke();
-    fill('#212121');
-    ellipse(Pos.x(this.position.x), Pos.y(this.position.y), Pos.s(0.01), Pos.s(0.01));
-    text(this.id, Pos.x(this.position.x) + 20, Pos.y(this.position.y));
-
-    stroke('#212121');
-    for (let i = 0; i < this.intercourses.length; i++) {
-      line(Pos.x(this.position.x), Pos.y(this.position.y), Pos.x(this.intercourses[i].position.x), Pos.y(this.intercourses[i].position.y));
-    }
-  }
-
-  calculateForce() {
-    let k = 1 / nodes.length;
-    for (let i = 0; i < nodes.length; i++) {
-      let force = createVector(0, 0);
-      if (nodes[i] != this) {
-        let distance = p5.Vector.dist(this.position, nodes[i].position);
-        if (this.intercourses.includes(nodes[i])) {
-          let intercourseCount = getCountOfObjectInList(nodes[i], this.intercourses);
-          let strength = sq(distance) / k * intercourseCount;
-          force = p5.Vector.sub(nodes[i].position, this.position).mult(strength);
-          stroke('#FF0000');
-          line(Pos.x(this.position.x), Pos.y(this.position.y), Pos.x(this.position.x + force.x), Pos.y(this.position.y + force.y));
-        } else {
-          let strength = sq(k) / distance;
-          force = p5.Vector.sub(this.position, nodes[i].position).mult(strength);
-          stroke('#0000FF');
-          line(Pos.x(this.position.x), Pos.y(this.position.y), Pos.x(this.position.x + force.x), Pos.y(this.position.y + force.y));
-        }
-      }
-      this.summedForce.add(force);
-    }
-
-    stroke('#00FF00');
-    line(Pos.x(this.position.x), Pos.y(this.position.y), Pos.x(this.position.x + this.summedForce.x), Pos.y(this.position.y + this.summedForce.y));
-  }
-
-  applyForce() {
-    this.summedForce.mult(1 / nodes.length);
-    if (this.summedForce.mag() > 0.5) {
-      this.summedForce.normalize().mult(0.5);
-    }
-    this.position.add(this.summedForce);
+  for (let i = 0; i < nodes.length; i++) {
+    nodes[i].applyForce();
   }
 }
 
-
-class Pos {
-  static x(relative) {
-    return max(windowWidth - windowHeight, 0) / 2 + relative * min(windowWidth, windowHeight);
+function showNodes() {
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = i+1; j < nodes.length; j++) {
+      nodes[i].showEdge(nodes[j]);
+    }
   }
-
-  static y(relative) {
-    return max(windowHeight - windowWidth, 0) / 2 + relative * min(windowWidth, windowHeight);
+  for (let i = 0; i < nodes.length; i++) {
+    nodes[i].showVertex();
   }
+}
 
-  static s(relative) {
-    return relative * min(windowWidth, windowHeight);
+function getIntercoursesFromServerInitial() {
+  getIntercoursesFromServer(0);
+  precomputeNodePositions();
+}
+
+function getIntercoursesFromServer(startingPoint) {
+  addIntercourse(01, 02);
+  addIntercourse(02, 03);
+  addIntercourse(01, 05);
+  addIntercourse(01, 02);
+  addIntercourse(01, 02);
+  addIntercourse(01, 02);
+  addIntercourse(04, 07);
+  addIntercourse(05, 08);
+  addIntercourse(03, 09);
+  addIntercourse(09, 10);
+  addIntercourse(01, 11);
+  addIntercourse(11, 12);
+  addIntercourse(03, 04);
+  addIntercourse(05, 06);
+  addIntercourse(11, 09);
+  addIntercourse(09, 03);
+  addIntercourse(09, 03);
+  addIntercourse(01, 02);
+  addIntercourse(01, 02);
+  addIntercourse(02, 05);
+  addIntercourse(01, 02);
+  addIntercourse(01, 05);
+  addIntercourse(12, 05);
+  addIntercourse(04, 02);
+  addIntercourse(01, 12);
+  addIntercourse(08, 06);
+  addIntercourse(03, 12);
+  addIntercourse(02, 06);
+  addIntercourse(02, 08);
+  return;
+}
+
+function precomputeNodePositions() {
+  for (let i = 0; i < 50; i++) {
+    computeNodes();
   }
 }
 
@@ -130,6 +112,137 @@ function getOrCreateNode(id) {
   let newNode = new Node(id);
   nodes.push(newNode);
   return newNode;
+}
+
+class Node {
+  constructor(id) {
+    this.id = id;
+    this.position = createVector(random(1), random(1));
+    this.smoothPosition = createVector(this.position.x, this.position.y);
+    this.intercourses = [];
+    this.summedForce = createVector(0, 0);
+    Node.minimumSize = 0.1;
+
+    Node.cMin = 0.7;
+    Node.cMax = 0.3;
+    Node.bMin = 0.75;
+    Node.bPref = 3.5;
+
+    Node.gravity = 0.0001;
+    Node.centerGravity = 0.996;
+  }
+
+  showVertex() {
+    noStroke();
+    fill(nodeColor);
+    let scale = this.intercourses.length / nodes.length;
+    ellipse(Pos.x(this.smoothPosition.x), Pos.y(this.smoothPosition.y), Pos.s(Node.minimumSize * scale), Pos.s(Node.minimumSize * scale));
+
+    noStroke();
+    text(this.id, Pos.x(this.smoothPosition.x) + Pos.s(Node.minimumSize * scale / 2) + 10, Pos.y(this.smoothPosition.y));
+  }
+
+  showEdge(otherNode) {
+    stroke(edgeColor);
+    if (this.intercourses.includes(otherNode)) {
+      line(Pos.x(this.smoothPosition.x), Pos.y(this.smoothPosition.y), Pos.x(otherNode.smoothPosition.x), Pos.y(otherNode.smoothPosition.y));
+    }
+  }
+
+  calculateForceFR() {
+    let k = 1 / nodes.length;
+    let force = createVector(0, 0);
+    for (let i = 0; i < nodes.length; i++) {
+      if (nodes[i] != this) {
+        let distance = p5.Vector.dist(this.position, nodes[i].position);
+
+        if (this.intercourses.includes(nodes[i])) {
+          let intercourseCount = getCountOfObjectInList(nodes[i], this.intercourses);
+          let strength = sq(distance) / k * intercourseCount;
+          strength -= sq(k) / distance * this.intercourses.length; // <--- HACK!
+          force = p5.Vector.sub(nodes[i].position, this.smoothFactor).mult(strength);
+        }
+        else {
+          let strength = sq(k) / distance;
+          force = p5.Vector.sub(this.position, nodes[i].position).mult(strength);
+        }
+        this.summedForce.add(force);
+      }
+    }
+  }
+
+  calculateForcePref() {
+    for (let i = 0; i < nodes.length; i++) {
+      if (nodes[i] != this) {
+        let distance = p5.Vector.dist(this.position, nodes[i].position);
+
+        let thisR = this.intercourses.length * Node.minimumSize / nodes.length;
+        let thatR = nodes[i].intercourses.length * Node.minimumSize / nodes.length;
+
+        let dMin = thisR + thatR + Node.bMin * (Node.cMin * min(thisR, thatR) + Node.cMax * max(thisR, thatR));
+        let dPref = thisR + thatR + Node.bPref * (Node.cMin * min(thisR, thatR) + Node.cMax * max(thisR, thatR));
+
+        if (this.intercourses.includes(nodes[i])) {
+          let attract = sq(max(distance - dMin, 0)) / (dPref -  dMin);
+          let attractionForce = p5.Vector.sub(nodes[i].position, this.position).mult(attract);
+          this.summedForce.add(attractionForce);
+          nodes[i].summedForce.add(attractionForce.mult(-1));
+        }
+
+        let repulse = sq(dPref - dMin) / max(distance - dMin, 0.001);
+        let repulsionForce = p5.Vector.sub(this.position, nodes[i].position).mult(repulse);
+        this.summedForce.add(repulsionForce);
+
+        let gravitation = p5.Vector.sub(this.position, nodes[i].position).normalize().mult(Node.gravity * this.intercourses.length);
+        nodes[i].summedForce.add(gravitation);
+      }
+    }
+
+    let smoothFactor = 0.97;
+    this.smoothPosition.mult(smoothFactor);
+    this.smoothPosition.add(createVector(this.position.x * (1 - smoothFactor), (this.position.y * (1 - smoothFactor))));
+
+  }
+
+  applyForce() {
+    this.summedForce.mult(1 / nodes.length);
+    if (this.summedForce.mag() > 0.2) {
+      this.summedForce.normalize().mult(0.2);
+    }
+    this.position.add(this.summedForce);
+    this.position.mult(Node.centerGravity);
+  }
+}
+
+
+class Pos {
+  static calculateMidpoint() {
+    let minX = Number.MAX_VALUE, maxX = Number.MIN_VALUE;
+    let minY = Number.MAX_VALUE, maxY = Number.MIN_VALUE;
+
+    for (let i = 0; i < nodes.length; i++) {
+      minX = min(nodes[i].position.x, minX);
+      maxX = max(nodes[i].position.x, maxX);
+      minY = min(nodes[i].position.y, minY);
+      maxY = max(nodes[i].position.y, maxY);
+    }
+
+    let x = (maxX - minX) / 2 + minX;
+    let y = (maxY - minY) / 2 + minY;
+    Pos.midPoint = createVector(x, y);
+  };
+
+  static x(relative) {
+    return max(windowWidth - windowHeight, 0) / 2 + (relative - Pos.midPoint.x + 0.5) * min(windowWidth, windowHeight);
+  }
+
+  static y(relative) {
+    return max(windowHeight - windowWidth, 0) / 2 + (relative - Pos.midPoint.y + 0.5) * min(windowWidth, windowHeight);
+  }
+
+  static s(relative) {
+    return relative * min(windowWidth, windowHeight);
+  }
 }
 
 function getCountOfObjectInList(obj, list) {
