@@ -1,19 +1,25 @@
 let edgeColor = '#777777';
-let nodeColor = '#212121';
+let nodeColor = '#777777';
 let textColor = '#212121';
 let backgroundColor = '#FAFAFA';
 
 let nodes = [];
+let pairedIDs = [];
+
 let font;
 
 function preload() {
-  //font = loadFont('assets/font.ttf');
+  font = loadFont('assets/font.ttf');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   getIntercoursesFromServerInitial();
-  // textFont(font);
+  textFont(font);
+
+  setInterval(function() {
+    getIntercoursesFromServer();
+  }, 10000);
 }
 
 function draw() {
@@ -53,45 +59,31 @@ function showNodes() {
 }
 
 function getIntercoursesFromServerInitial() {
-  getIntercoursesFromServer(0);
+  loadJSON('/api/v1/graph?starting_point=0', initialNodeSetup);
+  // loadJSON('test.json', initialNodeSetup);
+}
+
+function getIntercoursesFromServer() {
+  loadJSON('/api/v1/graph?starting_point=0', jsonToIntercourses);
+  // loadJSON('test2.json', jsonToIntercourses);
+}
+
+function initialNodeSetup(json) {
+  jsonToIntercourses(json);
   precomputeNodePositions();
 }
 
-function getIntercoursesFromServer(startingPoint) {
-  addIntercourse(01, 02);
-  addIntercourse(02, 03);
-  addIntercourse(01, 05);
-  addIntercourse(01, 02);
-  addIntercourse(01, 02);
-  addIntercourse(01, 02);
-  addIntercourse(04, 07);
-  addIntercourse(05, 08);
-  addIntercourse(03, 09);
-  addIntercourse(09, 10);
-  addIntercourse(01, 11);
-  addIntercourse(11, 12);
-  addIntercourse(03, 04);
-  addIntercourse(05, 06);
-  addIntercourse(11, 09);
-  addIntercourse(09, 03);
-  addIntercourse(09, 03);
-  addIntercourse(01, 02);
-  addIntercourse(01, 02);
-  addIntercourse(02, 05);
-  addIntercourse(01, 02);
-  addIntercourse(01, 05);
-  addIntercourse(12, 05);
-  addIntercourse(04, 02);
-  addIntercourse(01, 12);
-  addIntercourse(08, 06);
-  addIntercourse(03, 12);
-  addIntercourse(02, 06);
-  addIntercourse(02, 08);
-  return;
+function jsonToIntercourses(json) {
+  for (let i = 0; i < json.data.length; i++) {
+    if (json.data[i].verified == true && !pairedIDs.includes(json.data[i].id)) {
+      addIntercourse(json.data[i].first, json.data[i].second);
+      pairedIDs.push(json.data[i].id);
+    }
+  }
 }
 
 function precomputeNodePositions() {
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 100; i++) {
     computeNodes();
   }
 }
@@ -139,7 +131,16 @@ class Node {
     ellipse(Pos.x(this.smoothPosition.x), Pos.y(this.smoothPosition.y), Pos.s(Node.minimumSize * scale), Pos.s(Node.minimumSize * scale));
 
     noStroke();
-    text(this.id, Pos.x(this.smoothPosition.x) + Pos.s(Node.minimumSize * scale / 2) + 10, Pos.y(this.smoothPosition.y));
+    fill(textColor);
+    noStroke();
+    let sign = 1;
+    if (Pos.x(this.smoothPosition.x) < windowWidth / 2) {
+      textAlign(RIGHT, CENTER);
+      sign = -1;
+    } else {
+      textAlign(LEFT, CENTER);
+    }
+    text(this.id.substring(0, 8), Pos.x(this.smoothPosition.x) + Pos.s(Node.minimumSize * scale / 2) * sign + 10 * sign, Pos.y(this.smoothPosition.y));
   }
 
   showEdge(otherNode) {
