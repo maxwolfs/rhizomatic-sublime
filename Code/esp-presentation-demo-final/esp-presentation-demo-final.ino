@@ -36,7 +36,7 @@ void setup() {
   debouncer.interval(50);
 
   Serial.begin(115200);             //Serial connection
-  WiFi.begin("123geheim", "");      //WiFi connection
+  WiFi.begin("pxl", "12345678");      //WiFi connection
 
   while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection completion
 
@@ -98,7 +98,7 @@ void loop() {
 
       }
 
-      delay(10000);  //Send a request every 30 seconds
+      delay(3000);  //Send a request every 30 seconds
 
     }
   }
