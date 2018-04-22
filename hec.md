@@ -12,8 +12,8 @@ Der aktuelle Trend von digitalen Services von Shopping über soziale Netzwerke b
 
 Wie kann man Cloud Technologien und Digital Services bedeutungsvoll in den Alltag implementieren? Wir sind dabei auf der Suche nach einer Lösung dafür im Bereich UI und UX zu finden. Gerade sind wir dabei ein IoT Wearable zu entwickeln das als Brücke zwischen Material und Cloud gilt mit neuster Technologie und gegenwärtigen Design. Wir betrachten das Projekt als experimentelle Grundlagenforschung mit der Fragestellung:
 
-how can you connect and incorporate these technologies in our everyday life in a meaningful way.
-Die Technik ist aber der Zweck noch nicht. Wie kann man es gut implementieren? von UX bis Security.
+Wie kann man can you connect and incorporate these technologies in our everyday life in a meaningful way.
+von UX bis Security.
 
 We are researching the materialization / übergang von digital rhizomatic technology to cloud technology.
 
@@ -29,23 +29,15 @@ Wir haben einen Prototypen bestehend aus Karte mit PCB, Web Interface, Datenvisu
 
 ![userflow](Design/Graphics/rhizm_flowchart.png)
 
-Jede Karte hat eine einzigartige ID. Werden zwei Karten an ihren Magnetkontakten verbunden, wecken sie sich gegenseitig aus dem Deep Sleep Modus auf und tauschen via Serial Interface ihre IDs aus. Damit ist das Potential des Superkondensators, welcher als Stromquelle dient erschöpft. Wird die Karte das nächste Mal via USB-C aufgeladen, sendet sie automatisch via integriertem WiFi die vorher getätige Verbindung an die API. Haben dies beide Karten getan, werden die Pairinganfragen in der Datenbank als verifiziert gesetzt. Eine Visualisierung aller verifizierten Kartenpairing ist auf der Hauptseite http://www.rhizomaticmachines.com zu sehen.
+Jede Karte hat eine einzigartige ID. Werden zwei Karten an ihren Magnetkontakten verbunden, wecken sie sich gegenseitig aus dem Deep Sleep Modus auf und tauschen via Serial Interface ihre IDs aus. Damit ist das Potential des Superkondensators, welcher als Stromquelle dient erschöpft. Wird die Karte das nächste Mal via USB-C aufgeladen, sendet sie automatisch via integriertem WiFi die vorher getätige Verbindung an die API. Haben dies beide Karten getan, werden die Pairinganfragen in der Datenbank als verifiziert gesetzt. Eine Visualisierung aller verifizierten Kartenpairings ist auf der Hauptseite http://www.rhizomaticmachines.com zu sehen.
 
 ![userflow](design/Graphics/graph.png)
 
+Jede Karte stellt dabei einen Punkt dar. Je größer die Punkte desto mehr verifizierte Pairings hat die Karte zu verzeichnen. Zu sehen ist also eine relationale Karte aller gerade bestehenden Prototypen. Ein Mesh sozialer Interaktionen.
+
 ## Ziel
 
-Das wollen wir skalieren und gernze zusammen mit HEC als know how tech firma erruieren wie man das in RL life applikation einbetten kann.
-ohne Geld / HEC können wir das nicht mahcen.
-
-## Roadmap
-
-Month | ToDo
---- | ---
-Mai | Grundlagenforschung, Realigning, Verständnis der Technologien vertiefen
-Juni - Juli | Redesign
-Juli - August | Test Phase and Evaluation
-September | Evaluation
+Mithilfe des HEC Sponsorships wollen wir die Möglichkeit bekommen das Projekt an einer Testgruppe zu evaluieren. Dies würden wir gerne zusammen mit HEC als Tech Insider eruieren. Ohne die Förderung ist dies mit den bisherigen finanziellen Aufwendungen nicht möglich.
 
 ## Budget
 
@@ -55,7 +47,16 @@ PCBs | 300€
 Komponenten |  800€
 Werkzeuge | 200€
 Hosting/Server | 200€
-**Suumme** |	**1500€**
+**Summe** |	**1500€**
+
+## Roadmap
+
+Zeitraum | ToDo
+--- | ---
+Mai | Grundlagenforschung, Realigning, Verständnis der Technologien vertiefen
+Juni - Juli | Redesign
+Juli - August | Test Phase and Evaluation
+September | Evaluation
 
 ## Fotos
 
