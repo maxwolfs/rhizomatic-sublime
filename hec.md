@@ -27,9 +27,11 @@ Blockchain
 
 Wir haben einen Prototypen bestehend aus Karte mit PCB, Web Interface, Datenvisualisierung und Datenbank. Maßgeblich bestimmend für den aktuellen Zwischenstand des Projekts war eine medienkünstlerische sowie Designperspektive auf eine neue Interaktion die als Brücke zwischen physischen und Cloud darstellt. Der eigens entworfene Schaltkreis und das Layout nehmen das Medium der Platine nicht als bloßen Träger von Elektronikbauteilen, sondern als ästhetisches Objekt wahr. Durch diese bedeutungsvolle Aufwertung und unserer entwickelten Interaktion zweier Karten mittels selbst entwickelten Magnetkontakten entsteht darüberhinaus eine neue User Experience von Bedeutung.
 
-![userflow](Presentation/Graphics/rhizm_flowchart.pgn)
+![userflow](Design/Graphics/rhizm_flowchart.png)
 
 Jede Karte hat eine einzigartige ID. Werden zwei Karten an ihren Magnetkontakten verbunden, wecken sie sich gegenseitig aus dem Deep Sleep Modus auf und tauschen via Serial Interface ihre IDs aus. Damit ist das Potential des Superkondensators, welcher als Stromquelle dient erschöpft. Wird die Karte das nächste Mal via USB-C aufgeladen, sendet sie automatisch via integriertem WiFi die vorher getätige Verbindung an die API. Haben dies beide Karten getan, werden die Pairinganfragen in der Datenbank als verifiziert gesetzt. Eine Visualisierung aller verifizierten Kartenpairing ist auf der Hauptseite http://www.rhizomaticmachines.com zu sehen.
+
+![userflow](Design/Graphics/graph.png)
 
 ## Ziel
 
