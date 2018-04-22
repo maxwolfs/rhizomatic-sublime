@@ -6,22 +6,19 @@
 
 Wir haben eine neue Interaktion erfunden.
 
-## Hintergrund & Konzept
+## Hintergrund
 
-Der aktuelle Trend von digitalen Services von Shopping über soziale Netzwerke bis hin zu zivilen Institutionen besteht darin, die Dienstleistungen in Apps und Webseiten über General Purpose Devices allen voran Smartphones anzubieten. Diese Entwicklung trifft die Annahme, dass ein Interface - in diesem Falle der Touchscreen - das beste von allen zu sein scheint. In unseren Augen ist diese jedoch nur der kleinste gemeinsame Nenner.
+Der aktuelle Trend von digitalen Services von Shopping über soziale Netzwerke bis hin zu zivilen Institutionen besteht darin, die Dienstleistungen in Apps und Webseiten über General Purpose Devices allen voran Smartphones anzubieten. Dieses Paradigma trifft die Annahme, dass ein Interface - in diesem Falle der Touchscreen - das beste Lösung zu sein scheint. In unseren Augen ist diese jedoch nur der kleinste gemeinsame Nenner.
 
-Wie kann man Cloud Technologien und Digital Services bedeutungsvoll in den Alltag implementieren? Wir sind dabei auf der Suche nach einer Lösung dafür im Bereich UI und UX zu finden. Gerade sind wir dabei ein IoT Wearable zu entwickeln das als Brücke zwischen Material und Cloud gilt mit neuster Technologie und gegenwärtigen Design. Wir betrachten das Projekt als experimentelle Grundlagenforschung mit der Fragestellung:
+Wie kann man Cloud Technologien und Digital Services bedeutungsvoll in den Alltag implementieren? Wir sind dabei auf der Suche nach einer Lösung dafür im Bereich UI und UX zu finden. Gerade sind wir dabei ein IoT Wearable zu entwickeln das als Brücke zwischen barem Metall und der Cloud gilt. 
 
-Wie kann man can you connect and incorporate these technologies in our everyday life in a meaningful way.
+## Konzept
+
 von UX bis Security.
+Sandbox, Social Meshnetwork, Blockchain, WiFi, Secure&Encrypted, open api
 
-We are researching the materialization / übergang von digital rhizomatic technology to cloud technology.
-
-From bare metal to the cloud.
-social mesh.
-open api.
-Secure & Encrypted
-Blockchain
+Wir betrachten das Projekt als experimentelle Grundlagenforschung mit der hautpsächlichen Fragestellung:
+Wie kann man dise Technologien in einen sinnvolleren und vor allem bedeutungsvolleren Kontext in unseren Alltag implementieren?
 
 ## Stand der Dinge
 
