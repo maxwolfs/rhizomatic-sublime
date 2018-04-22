@@ -31,7 +31,7 @@ Wir haben einen Prototypen bestehend aus Karte mit PCB, Web Interface, Datenvisu
 
 Jede Karte hat eine einzigartige ID. Werden zwei Karten an ihren Magnetkontakten verbunden, wecken sie sich gegenseitig aus dem Deep Sleep Modus auf und tauschen via Serial Interface ihre IDs aus. Damit ist das Potential des Superkondensators, welcher als Stromquelle dient erschöpft. Wird die Karte das nächste Mal via USB-C aufgeladen, sendet sie automatisch via integriertem WiFi die vorher getätige Verbindung an die API. Haben dies beide Karten getan, werden die Pairinganfragen in der Datenbank als verifiziert gesetzt. Eine Visualisierung aller verifizierten Kartenpairing ist auf der Hauptseite http://www.rhizomaticmachines.com zu sehen.
 
-![userflow](Design/Graphics/graph.png)
+![userflow](design/Graphics/graph.png)
 
 ## Ziel
 
