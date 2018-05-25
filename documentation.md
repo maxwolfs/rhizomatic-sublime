@@ -1,4 +1,4 @@
-# documentation of rhizomatic machines
+# master Projekt Dokumentation
 
 ## by Alexander Lehmann & Maximilian Wolfs
 

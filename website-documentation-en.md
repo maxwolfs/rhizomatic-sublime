@@ -1,5 +1,12 @@
 # DM website documentation of rhizomatic machines by Alexander Lehmann & Maximilian Wolfs
 
+* Title: Rhizomatic Machines
+* Category: Semesterarbeit
+* Student/s: Maximilian Wolfs, Alexander Lehmann
+* Course Title: Master Project
+* Lecturer/s: Ralf Baecker, Dennis Paul
+* Year: WS 2017/18
+
 ![Interaction](Presentation/Graphics/michealangelo.jpg)
 
 We invented a new interaction.
