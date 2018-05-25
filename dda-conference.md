@@ -9,3 +9,7 @@ We have invented a revolutionary interaction. We object to the mundane paradigm 
 Inject - Exhaust - Dissipate
 
 www.rhizomaticmachines.com
+
+## Points
+
+* künstliche wertschöpfung

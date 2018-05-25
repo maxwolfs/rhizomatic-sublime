@@ -2,14 +2,46 @@
 
 ## by Alexander Lehmann & Maximilian Wolfs
 
-## Introduction
+# Einführung
 
-## The Interaction
+* Die Pflanzen
+* Rhizomatisch why?
+* kollaborativ Prozess via git
 
-## Background
+# Rhizomatic Machines
 
-## Device
+* Konzept
+
+# Technischer Hintergrund
+
+## Das Device
+
+* Kartenformat
+* Custom PCB
+* Komponenten Research
+* Kicad Layoutprozess
 
 ## Website
 
-## Future
+* Idee
+* Flask API
+* Fullpage JS
+* CSS Grid Layout
+* P5JS Force Directed Graph
+
+## Pouches
+
+* Idee
+
+## Riso Magazin
+
+* Idee
+
+# Fazit
+
+* Intercourse Reflektion
+
+# Future
+
+* HEC Sponsorship
+* Test Roll Out

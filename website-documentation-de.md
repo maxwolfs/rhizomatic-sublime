@@ -4,8 +4,6 @@
 
 Wir haben eine neue Interaktion erfunden.
 
-## Hintergrund und Konzept
-
 Der aktuelle Trend digitaler Services von Shopping über soziale Netzwerke bis hin zu zivilen Institutionen besteht darin, die Dienstleistungen in Apps und Webseiten über General Purpose Devices allen voran Smartphones anzubieten. Dieses Paradigma trifft die Annahme, dass ein Interface - in diesem Falle der Touchscreen - das beste Lösung zu sein scheint. In unseren Augen ist dieser jedoch nur der kleinste gemeinsame Nenner.
 
 Wie kann man Cloud Technologien und Digital Services bedeutungsvoll in den Alltag implementieren? Wir sind dabei auf der Suche nach einer besseren Lösung, die wir im Bereich UI und UX finden wollen. Unser Ansatz: Wir entwickeln ein sicheres IoT Wearable, das als Brücke zwischen barem Metall und der Cloud fungiert.
