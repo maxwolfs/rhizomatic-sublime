@@ -97,17 +97,3 @@ card =  {
 
 ## KiCAD
 * [Artworks in KiCAD](https://hackaday.io/project/18508-mr-robot-badge/log/53901-this-is-how-you-do-art-in-kicad)
-
-# TODO
-
-* ~~Schematic~~
-* ~~BOM~~
-* PCB Layout
-* Design Artwork
-* Printing Artwork
-* Design Manual
-* Printing Manual
-* Design Packaging
-* Printing Packaging
-* Software Cards
-* Software Cloud
