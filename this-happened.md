@@ -17,6 +17,8 @@
 
 * Das ist die Hardware -device
 
+### Presi
+
 1. Anekdote - Herleitung, Persönliche Stickyness zum dahinterliegenden Problem
 
 Dass wir heute hier stehen ist das Ergebnis einer unfallreichen Verkettung von Zufällen.
@@ -24,12 +26,15 @@ Dass wir heute hier stehen ist das Ergebnis einer unfallreichen Verkettung von Z
 
 2. Ausgangspunkt und Problem - Why
 
+[lustigesBild] 
 Die Welt ist voller General Purpose Devices samt bedeutungsloser, generischer Gesten.
 Es ist leider nicht so wie mit Lichtschaltern, die man blind und in Dunkelheit in Räumen findet und bedienen kann.
 Denn die immer gleichen, absurden Bewegungen und Gesten [Absurditität mit einem Stück Holz demonstrieren] sind mit den Aktionen die sie auslösen total disconnected.
+
 Der Lichtschalter schaltet Licht ein und aus. Ein Swipe verbindet die sexuelle Absicht zweier Personen, löscht Nachrichten, erzeugt den nächsten Screen oder lehnt den nächsten Anruf ab. Soziale Interaktionen unterscheiden sich in ihrer Bedienbarkeit nicht von Software-Funktionen. Dem Smartphone ist scheißegal ob du deine Oma wegdrückst oder ob du den Wecker stellst. Eine Virtuelle Mechanik die logisch erscheint aber dennoch frei erfunden und sich nur visuell hinter Panzerglas auf einem Bildschirm abspielt.
 Es ist schon lustig dass ein paar Menschen in Kaliforniern weltweit die Daumen von Milliarden von Menschen utilisiert haben.
 
+[UnserLogoIrgendwie]
 Wir widersprechen diesem mondänen HCI Paradgima und fordern eine echte HHI.
 Das bedeutet auch, dass man soziale Netzwerke anders und gänzlich neu denken kann. 
 
@@ -43,7 +48,7 @@ It's not Force Touch
 It's physical
 It's fucking real touch
 
-[Bild]
+[Bild-RealTouch]
 
 Diese Interaktion erzeugt unausweichlich ein Verbindung aus getätigten Interaktionen. Ein auf echten Berührung basiertes, denzentrales soziales Netzwerk.
 
@@ -97,5 +102,5 @@ Achso, und wir arbeiten übrigens an Implantanten.
 ## TODO
 
 * Für die Präsentation soll auf der Webseite nur der leere Graph zu sehen sein
-* Webseiteüberarbeitung
+* Webseiteüberarbeitung: 
 * Passende Kleidung: 
