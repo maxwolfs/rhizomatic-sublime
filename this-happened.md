@@ -28,11 +28,9 @@ Dass wir heute hier stehen ist das Ergebnis einer unfallreichen Verkettung von Z
 
 [lustigesBild] 
 Die Welt ist voller General Purpose Devices samt bedeutungsloser, generischer Gesten.
-Es ist leider nicht so wie mit Lichtschaltern, die man blind und in Dunkelheit in Räumen findet und bedienen kann.
-Denn die immer gleichen, absurden Bewegungen und Gesten [Absurditität mit einem Stück Holz demonstrieren] sind mit den Aktionen die sie auslösen total disconnected.
+Es ist leider nicht so wie mit Lichtschaltern, die man blind und in Dunkelheit in Räumen findet und bedienen kann. Denn die immer gleichen, absurden Bewegungen und Gesten [Absurditität mit einem Stück Holz demonstrieren] sind mit den Aktionen die sie auslösen total disconnected.
 
-Der Lichtschalter schaltet Licht ein und aus. Ein Swipe verbindet die sexuelle Absicht zweier Personen, löscht Nachrichten, erzeugt den nächsten Screen oder lehnt den nächsten Anruf ab. Soziale Interaktionen unterscheiden sich in ihrer Bedienbarkeit nicht von Software-Funktionen. Dem Smartphone ist scheißegal ob du deine Oma wegdrückst oder ob du den Wecker stellst. Eine Virtuelle Mechanik die logisch erscheint aber dennoch frei erfunden und sich nur visuell hinter Panzerglas auf einem Bildschirm abspielt.
-Es ist schon lustig dass ein paar Menschen in Kaliforniern weltweit die Daumen von Milliarden von Menschen utilisiert haben.
+Der Lichtschalter schaltet Licht ein und aus. Ein Swipe verbindet die sexuelle Absicht zweier Personen, löscht Nachrichten, erzeugt den nächsten Screen oder lehnt den nächsten Anruf ab. Soziale Interaktionen unterscheiden sich in ihrer Bedienbarkeit nicht von Software-Funktionen. Dem Smartphone ist scheißegal ob du deine Oma wegdrückst oder ob du den Wecker stellst. Eine Virtuelle Mechanik die logisch erscheint aber dennoch frei erfunden und sich nur visuell hinter Panzerglas auf einem Bildschirm abspielt. Es ist schon lustig dass ein paar Menschen in Kaliforniern weltweit die Daumen von Milliarden von Menschen utilisiert haben.
 
 [UnserLogoIrgendwie]
 Wir widersprechen diesem mondänen HCI Paradgima und fordern eine echte HHI.
