@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name 2018-03-08-Intercourse-01-rescue)(type Legacy)(uri "${KIPRJMOD}/2018-03-08 Intercourse 01-rescue.lib")(options "")(descr ""))
+  (lib (name w25q-flash)(type Legacy)(uri "${KIPRJMOD}/custom libs/w25q-flash.lib")(options "")(descr ""))
+  (lib (name murata-dmf3-supercap)(type Legacy)(uri "${KIPRJMOD}/custom libs/murata-dmf3-supercap.lib")(options "")(descr ""))
+  (lib (name LTC3225)(type Legacy)(uri "${KIPRJMOD}/custom libs/LTC3225.lib")(options "")(descr ""))
+  (lib (name TPS61221DCKR)(type Legacy)(uri "${KIPRJMOD}/custom libs/TPS61221DCKR.lib")(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri "${KIPRJMOD}/custom libs/ESP8266/ESP8266.lib")(options "")(descr ""))
+  (lib (name MyAntennas)(type Legacy)(uri "${KIPRJMOD}/custom libs/PCB_Antenna/MyAntennas.lib")(options "")(descr ""))
+)
