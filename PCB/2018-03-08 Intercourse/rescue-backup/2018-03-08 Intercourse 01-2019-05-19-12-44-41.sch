@@ -1,6 +1,45 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:2018-03-08 Intercourse 01-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:w25q-flash
+LIBS:murata-dmf3-supercap
+LIBS:LTC3225
+LIBS:TPS61221DCKR
+LIBS:ESP8266
+LIBS:MyAntennas
 LIBS:2018-03-08 Intercourse 01-cache
-EELAYER 29 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -15,7 +54,7 @@ Comment3 "A project by Max Wolfs and Alexander Lehmann."
 Comment4 "Schematic of C."
 $EndDescr
 $Comp
-L 2018-03-08-Intercourse-01-rescue:DMF3 C1
+L DMF3 C1
 U 1 1 5AAA8D1F
 P 3600 1300
 F 0 "C1" H 3500 1550 60  0000 C CNN
@@ -26,7 +65,7 @@ F 3 "" H 3600 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:LTC3225 U1
+L LTC3225 U1
 U 1 1 5AAA8D7A
 P 3700 2300
 F 0 "U1" H 3700 2700 60  0000 C CNN
@@ -37,7 +76,7 @@ F 3 "" H 3700 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C3
+L C_Small C3
 U 1 1 5AAA95FB
 P 3100 2100
 F 0 "C3" H 2900 2100 50  0000 L CNN
@@ -48,7 +87,7 @@ F 3 "" H 3100 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R_Small R1
+L R_Small R1
 U 1 1 5AAAACAB
 P 4700 2400
 F 0 "R1" V 4500 2350 50  0000 L CNN
@@ -59,7 +98,7 @@ F 3 "" H 4700 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C5
+L C_Small C5
 U 1 1 5AAAAFD7
 P 3800 3900
 F 0 "C5" H 3600 3900 50  0000 L CNN
@@ -72,7 +111,7 @@ $EndComp
 Text Notes 4000 4000 0    60   Italic 0
 Decoupling\nfor LTC3225
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R_Small R12
+L R_Small R12
 U 1 1 5AAAD924
 P 2600 8500
 F 0 "R12" H 2650 8550 50  0000 L CNN
@@ -83,7 +122,7 @@ F 3 "" H 2600 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:LED D5
+L LED D5
 U 1 1 5AAAD96E
 P 2600 8850
 F 0 "D5" V 2700 8700 50  0000 L CNN
@@ -94,7 +133,7 @@ F 3 "" H 2600 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:TPS61221DCKR U2
+L TPS61221DCKR U2
 U 1 1 5AABD6B3
 P 6350 2200
 F 0 "U2" H 6350 2500 60  0000 C CNN
@@ -105,7 +144,7 @@ F 3 "" H 6350 2200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:L L1
+L L L1
 U 1 1 5AABDCD5
 P 7100 1950
 F 0 "L1" H 7200 2000 50  0000 C CNN
@@ -120,7 +159,7 @@ Supercap Charger
 Text Notes 6000 2900 0    60   Italic 0
 Boost Converter
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C2
+L C_Small C2
 U 1 1 5AAC151B
 P 5600 1700
 F 0 "C2" V 5500 1750 50  0000 L CNN
@@ -131,7 +170,7 @@ F 3 "" H 5600 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C4
+L C_Small C4
 U 1 1 5AAC2CD4
 P 7100 2500
 F 0 "C4" V 7200 2550 50  0000 L CNN
@@ -146,7 +185,7 @@ USB C\nConnector for\nPower Supply
 Text Notes 2800 1300 0    60   Italic 0
 Supercap
 $Comp
-L 2018-03-08-Intercourse-01-rescue:ESP8266EX U4
+L ESP8266EX U4
 U 1 1 5AAC0B75
 P 3750 6950
 F 0 "U4" H 2900 7700 60  0000 C CNN
@@ -157,7 +196,7 @@ F 3 "" H 2850 7650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C12
+L C_Small C12
 U 1 1 5AAC131F
 P 1800 7100
 F 0 "C12" H 1600 7100 50  0000 L CNN
@@ -168,7 +207,7 @@ F 3 "" H 1800 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C11
+L C_Small C11
 U 1 1 5AAC2824
 P 1400 7100
 F 0 "C11" H 1200 7100 50  0000 L CNN
@@ -179,7 +218,7 @@ F 3 "" H 1400 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R6
+L R R6
 U 1 1 5AACA8C2
 P 3500 5150
 F 0 "R6" V 3400 5100 50  0000 C CNN
@@ -190,7 +229,7 @@ F 3 "" H 3500 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C10
+L C_Small C10
 U 1 1 5AACE32B
 P 2000 6500
 F 0 "C10" H 1800 6500 50  0000 L CNN
@@ -198,10 +237,10 @@ F 1 "5.6pF" H 1750 6400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 6500 50  0001 C CNN
 F 3 "" H 2000 6500 50  0001 C CNN
 	1    2000 6500
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:Crystal_GND24_Small Y1
+L Crystal_GND24_Small Y1
 U 1 1 5AAD1277
 P 4000 5200
 F 0 "Y1" V 4100 4700 50  0000 L CNN
@@ -212,7 +251,7 @@ F 3 "" H 4000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C7
+L C_Small C7
 U 1 1 5AAD49A7
 P 4200 5000
 F 0 "C7" H 4000 5000 50  0000 L CNN
@@ -223,7 +262,7 @@ F 3 "" H 4200 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C6
+L C_Small C6
 U 1 1 5AAD502A
 P 3800 5000
 F 0 "C6" H 3900 5000 50  0000 L CNN
@@ -234,7 +273,7 @@ F 3 "" H 3800 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C9
+L C_Small C9
 U 1 1 5AAD95DC
 P 2400 6300
 F 0 "C9" H 2200 6300 50  0000 L CNN
@@ -247,7 +286,7 @@ $EndComp
 Text Notes 4200 8100 0    60   Italic 0
 Microcontroller\nPeriphery
 $Comp
-L 2018-03-08-Intercourse-01-rescue:W25Q32FVSSIG U3
+L W25Q32FVSSIG U3
 U 1 1 5AADED3D
 P 6550 6850
 F 0 "U3" H 6550 7200 60  0000 C CNN
@@ -260,7 +299,7 @@ $EndComp
 Text Notes 6300 7800 0    60   Italic 0
 SPI Flash\nMemory
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R7
+L R R7
 U 1 1 5AAE9D88
 P 5550 7400
 F 0 "R7" V 5350 7400 50  0000 C CNN
@@ -271,7 +310,7 @@ F 3 "" H 5550 7400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R13
+L R R13
 U 1 1 5AADBBEB
 P 4250 8600
 F 0 "R13" V 4150 8750 50  0000 C CNN
@@ -287,7 +326,7 @@ NoConn ~ 4750 6600
 Text Notes 6300 5000 0    60   Italic 0
 Inter-Card\nConnector
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R14
+L R R14
 U 1 1 5AB011DC
 P 4250 8800
 F 0 "R14" V 4150 8950 50  0000 C CNN
@@ -298,7 +337,7 @@ F 3 "" H 4250 8800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R15
+L R R15
 U 1 1 5AB01E0B
 P 4250 9000
 F 0 "R15" V 4150 9150 50  0000 C CNN
@@ -309,7 +348,7 @@ F 3 "" H 4250 9000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR01
+L GND #PWR01
 U 1 1 5AB02ABD
 P 4700 9100
 F 0 "#PWR01" H 4700 8850 50  0001 C CNN
@@ -320,7 +359,7 @@ F 3 "" H 4700 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR02
+L GND #PWR02
 U 1 1 5AB02D42
 P 5900 7000
 F 0 "#PWR02" H 5900 6750 50  0001 C CNN
@@ -331,7 +370,7 @@ F 3 "" H 5900 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR03
+L GND #PWR03
 U 1 1 5AB04421
 P 4600 4900
 F 0 "#PWR03" H 4600 4650 50  0001 C CNN
@@ -342,7 +381,7 @@ F 3 "" H 4600 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR04
+L GND #PWR04
 U 1 1 5AB04941
 P 1400 7300
 F 0 "#PWR04" H 1400 7050 50  0001 C CNN
@@ -353,7 +392,7 @@ F 3 "" H 1400 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR05
+L GND #PWR05
 U 1 1 5AB0526A
 P 6100 6100
 F 0 "#PWR05" H 6100 5850 50  0001 C CNN
@@ -364,7 +403,7 @@ F 3 "" H 6100 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR06
+L GND #PWR06
 U 1 1 5AB06FD1
 P 1700 9400
 F 0 "#PWR06" H 1700 9150 50  0001 C CNN
@@ -375,7 +414,7 @@ F 3 "" H 1700 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR07
+L GND #PWR07
 U 1 1 5AB07A87
 P 5800 2400
 F 0 "#PWR07" H 5800 2150 50  0001 C CNN
@@ -386,7 +425,7 @@ F 3 "" H 5800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR08
+L GND #PWR08
 U 1 1 5AB07F62
 P 7400 2600
 F 0 "#PWR08" H 7400 2350 50  0001 C CNN
@@ -397,7 +436,7 @@ F 3 "" H 7400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR09
+L GND #PWR09
 U 1 1 5AB082E5
 P 5400 1800
 F 0 "#PWR09" H 5400 1550 50  0001 C CNN
@@ -408,7 +447,7 @@ F 3 "" H 5400 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR010
+L GND #PWR010
 U 1 1 5AB09090
 P 4900 2500
 F 0 "#PWR010" H 4900 2250 50  0001 C CNN
@@ -419,7 +458,7 @@ F 3 "" H 4900 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR011
+L GND #PWR011
 U 1 1 5AB09589
 P 4000 1500
 F 0 "#PWR011" H 4000 1250 50  0001 C CNN
@@ -430,7 +469,7 @@ F 3 "" H 4000 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR012
+L GND #PWR012
 U 1 1 5AB0AAA2
 P 3800 4100
 F 0 "#PWR012" H 3800 3850 50  0001 C CNN
@@ -441,7 +480,7 @@ F 3 "" H 3800 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VDD #PWR013
+L VDD #PWR013
 U 1 1 5AB0ED0F
 P 2400 5700
 F 0 "#PWR013" H 2400 5550 50  0001 C CNN
@@ -452,7 +491,7 @@ F 3 "" H 2400 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VDD #PWR014
+L VDD #PWR014
 U 1 1 5AB0F0ED
 P 5400 2600
 F 0 "#PWR014" H 5400 2450 50  0001 C CNN
@@ -463,7 +502,7 @@ F 3 "" H 5400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VDD #PWR015
+L VDD #PWR015
 U 1 1 5AB0F171
 P 6100 4700
 F 0 "#PWR015" H 6100 4550 50  0001 C CNN
@@ -474,7 +513,7 @@ F 3 "" H 6100 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VDD #PWR016
+L VDD #PWR016
 U 1 1 5AB0F6FF
 P 1400 6600
 F 0 "#PWR016" H 1400 6450 50  0001 C CNN
@@ -485,7 +524,7 @@ F 3 "" H 1400 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VDD #PWR017
+L VDD #PWR017
 U 1 1 5AB10318
 P 4700 8500
 F 0 "#PWR017" H 4700 8350 50  0001 C CNN
@@ -496,7 +535,7 @@ F 3 "" H 4700 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VBUS #PWR018
+L VBUS #PWR018
 U 1 1 5AB1587E
 P 2600 2300
 F 0 "#PWR018" H 2600 2150 50  0001 C CNN
@@ -507,7 +546,7 @@ F 3 "" H 2600 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VBUS #PWR019
+L VBUS #PWR019
 U 1 1 5AB15E99
 P 1400 8000
 F 0 "#PWR019" H 1400 7850 50  0001 C CNN
@@ -518,7 +557,7 @@ F 3 "" H 1400 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VBUS #PWR020
+L VBUS #PWR020
 U 1 1 5AB1696E
 P 3800 3700
 F 0 "#PWR020" H 3800 3550 50  0001 C CNN
@@ -529,7 +568,7 @@ F 3 "" H 3800 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VDD #PWR021
+L VDD #PWR021
 U 1 1 5AB188E5
 P 7100 6600
 F 0 "#PWR021" H 7100 6450 50  0001 C CNN
@@ -540,7 +579,7 @@ F 3 "" H 7100 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VBUS #PWR022
+L VBUS #PWR022
 U 1 1 5AB199E8
 P 4500 2000
 F 0 "#PWR022" H 4500 1850 50  0001 C CNN
@@ -551,7 +590,7 @@ F 3 "" H 4500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VDD #PWR023
+L VDD #PWR023
 U 1 1 5AB18A3B
 P 5200 6500
 F 0 "#PWR023" H 5200 6350 50  0001 C CNN
@@ -562,7 +601,7 @@ F 3 "" H 5200 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VDD #PWR024
+L VDD #PWR024
 U 1 1 5AB10939
 P 3400 8900
 F 0 "#PWR024" H 3400 8750 50  0001 C CNN
@@ -573,7 +612,7 @@ F 3 "" H 3400 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R5
+L R R5
 U 1 1 5AB249C6
 P 6100 5050
 F 0 "R5" V 6000 5150 50  0000 C CNN
@@ -584,7 +623,18 @@ F 3 "" H 6100 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:C_Small C8
+L Antenna AE1
+U 1 1 5AB24FDC
+P 2000 6100
+F 0 "AE1" H 1925 6175 50  0000 R CNN
+F 1 "Antenna" H 1925 6100 50  0000 R CNN
+F 2 "MyAntennas:AN91445" H 2000 6100 50  0001 C CNN
+F 3 "" H 2000 6100 50  0001 C CNN
+	1    2000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C8
 U 1 1 5AB287B2
 P 5900 5400
 F 0 "C8" V 5950 5450 50  0000 L CNN
@@ -603,7 +653,7 @@ MODE
 Text GLabel 3400 5800 1    60   Input ~ 0
 RST
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R4
+L R R4
 U 1 1 5AB29192
 P 5700 5050
 F 0 "R4" V 5600 5150 50  0000 C CNN
@@ -614,7 +664,7 @@ F 3 "" H 5700 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:TEST_1P J3
+L TEST_1P J3
 U 1 1 5AB2C671
 P 6200 5500
 F 0 "J3" V 6200 5750 50  0000 C CNN
@@ -625,7 +675,7 @@ F 3 "" H 6400 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:TEST_1P J5
+L TEST_1P J5
 U 1 1 5AB2EE19
 P 6200 5700
 F 0 "J5" V 6200 5950 50  0000 C CNN
@@ -636,7 +686,7 @@ F 3 "" H 6400 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:TEST_1P J4
+L TEST_1P J4
 U 1 1 5AB2EE99
 P 6200 5600
 F 0 "J4" V 6200 5850 50  0000 C CNN
@@ -647,7 +697,7 @@ F 3 "" H 6400 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:TEST_1P J2
+L TEST_1P J2
 U 1 1 5AB2EF3B
 P 6200 5400
 F 0 "J2" V 6200 5650 50  0000 C CNN
@@ -658,7 +708,7 @@ F 3 "" H 6400 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:TEST_1P J6
+L TEST_1P J6
 U 1 1 5AB2EFE1
 P 6200 5800
 F 0 "J6" V 6200 6050 50  0000 C CNN
@@ -669,7 +719,7 @@ F 3 "" H 6400 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:TEST_1P J7
+L TEST_1P J7
 U 1 1 5AB30DCC
 P 6200 5900
 F 0 "J7" V 6200 6150 50  0000 C CNN
@@ -680,7 +730,7 @@ F 3 "" H 6400 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR025
+L GND #PWR025
 U 1 1 5AB029B1
 P 1800 7300
 F 0 "#PWR025" H 1800 7050 50  0001 C CNN
@@ -691,7 +741,7 @@ F 3 "" H 1800 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VBUS #PWR026
+L VBUS #PWR026
 U 1 1 5AB412D4
 P 5600 3600
 F 0 "#PWR026" H 5600 3450 50  0001 C CNN
@@ -702,7 +752,7 @@ F 3 "" H 5600 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R2
+L R R2
 U 1 1 5AB41B9B
 P 5850 3700
 F 0 "R2" V 5750 3850 50  0000 C CNN
@@ -713,7 +763,7 @@ F 3 "" H 5850 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R R3
+L R R3
 U 1 1 5AB429EF
 P 5850 4100
 F 0 "R3" V 5950 4250 50  0000 C CNN
@@ -724,7 +774,7 @@ F 3 "" H 5850 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR027
+L GND #PWR027
 U 1 1 5AB42A87
 P 5600 4200
 F 0 "#PWR027" H 5600 3950 50  0001 C CNN
@@ -745,7 +795,7 @@ CHARGE_LED
 Text GLabel 1400 9200 3    60   Input ~ 0
 CHARGE_LED
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R_Small R11
+L R_Small R11
 U 1 1 5AB523B4
 P 2300 8500
 F 0 "R11" H 2350 8550 50  0000 L CNN
@@ -756,7 +806,7 @@ F 3 "" H 2300 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:LED D4
+L LED D4
 U 1 1 5AB523BA
 P 2300 8850
 F 0 "D4" V 2400 8700 50  0000 L CNN
@@ -767,7 +817,7 @@ F 3 "" H 2300 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R_Small R10
+L R_Small R10
 U 1 1 5AB52444
 P 2000 8500
 F 0 "R10" H 2050 8550 50  0000 L CNN
@@ -778,7 +828,7 @@ F 3 "" H 2000 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:LED D3
+L LED D3
 U 1 1 5AB5244A
 P 2000 8850
 F 0 "D3" V 2100 8700 50  0000 L CNN
@@ -789,7 +839,7 @@ F 3 "" H 2000 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R_Small R9
+L R_Small R9
 U 1 1 5AB53852
 P 1700 8500
 F 0 "R9" H 1750 8550 50  0000 L CNN
@@ -800,7 +850,7 @@ F 3 "" H 1700 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:LED D2
+L LED D2
 U 1 1 5AB53858
 P 1700 8850
 F 0 "D2" V 1800 8700 50  0000 L CNN
@@ -811,7 +861,7 @@ F 3 "" H 1700 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:R_Small R8
+L R_Small R8
 U 1 1 5AB538EA
 P 1400 8500
 F 0 "R8" H 1450 8550 50  0000 L CNN
@@ -822,7 +872,7 @@ F 3 "" H 1400 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:LED D1
+L LED D1
 U 1 1 5AB538F0
 P 1400 8850
 F 0 "D1" V 1500 8700 50  0000 L CNN
@@ -833,7 +883,7 @@ F 3 "" H 1400 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:USB_C_Receptacle J1
+L USB_C_Receptacle J1
 U 1 1 5AB61144
 P 1400 3200
 F 0 "J1" H 1000 4650 50  0000 L CNN
@@ -844,7 +894,7 @@ F 3 "" H 1550 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:VBUS #PWR028
+L VBUS #PWR028
 U 1 1 5AB68198
 P 2100 1800
 F 0 "#PWR028" H 2100 1650 50  0001 C CNN
@@ -855,7 +905,7 @@ F 3 "" H 2100 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR029
+L GND #PWR029
 U 1 1 5AB68E3E
 P 1500 5000
 F 0 "#PWR029" H 1500 4750 50  0001 C CNN
@@ -929,7 +979,7 @@ Text Notes 5400 1500 0    30   ~ 0
 Text Notes 6950 2300 0    30   ~ 0
 0805\n
 $Comp
-L 2018-03-08-Intercourse-01-rescue:TEST_1P J8
+L TEST_1P J8
 U 1 1 5AB7C6F7
 P 6200 6000
 F 0 "J8" V 6200 6250 50  0000 C CNN
@@ -972,13 +1022,13 @@ Wire Wire Line
 Wire Wire Line
 	4300 1200 4300 2100
 Wire Wire Line
-	4200 2100 4300 2100
+	4200 2100 5900 2100
 Wire Wire Line
 	5900 2300 5800 2300
 Wire Wire Line
 	5800 1700 5800 2100
 Wire Wire Line
-	5700 1700 5800 1700
+	5700 1700 7100 1700
 Wire Wire Line
 	6900 1700 6900 2100
 Wire Wire Line
@@ -986,9 +1036,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 2300 6900 2300
 Wire Wire Line
-	6900 2300 6900 2500
+	6900 2300 6900 2700
 Wire Wire Line
-	6900 2700 5600 2700
+	6900 2700 5400 2700
 Wire Wire Line
 	5600 2700 5600 2200
 Wire Wire Line
@@ -1010,7 +1060,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 7200 1400 7300
 Wire Wire Line
-	3300 4800 3300 5500
+	3300 4800 3300 6150
 Wire Wire Line
 	3400 5800 3400 6150
 Wire Wire Line
@@ -1032,13 +1082,15 @@ Wire Wire Line
 Wire Wire Line
 	3900 7750 3900 8800
 Wire Wire Line
-	4000 7750 4000 8400
+	4000 7750 4000 8600
 Wire Wire Line
 	4100 8200 4100 7750
 Wire Wire Line
 	2000 6700 2000 6600
 Wire Wire Line
 	2000 6700 2600 6700
+Wire Wire Line
+	2000 6400 2000 6300
 Wire Wire Line
 	4750 7300 5200 7300
 Wire Wire Line
@@ -1058,11 +1110,11 @@ Wire Wire Line
 Wire Wire Line
 	4000 4800 4000 5075
 Wire Wire Line
-	3800 5100 3800 5200
+	3800 5100 3800 6150
 Wire Wire Line
 	4100 5200 4200 5200
 Wire Wire Line
-	4200 5100 4200 5200
+	4200 5100 4200 5800
 Wire Wire Line
 	4200 5800 3900 5800
 Connection ~ 3800 5200
@@ -1156,7 +1208,7 @@ Wire Wire Line
 	5400 1700 5400 1800
 Connection ~ 5800 1700
 Wire Wire Line
-	4900 2300 4900 2400
+	4900 2300 4900 2500
 Connection ~ 4900 2400
 Wire Wire Line
 	4000 1400 4000 1500
@@ -1167,7 +1219,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 7200 2600 7200
 Wire Wire Line
-	4700 8500 4700 8600
+	4700 8500 4700 8800
 Connection ~ 4700 8600
 Wire Wire Line
 	3600 9000 3400 9000
@@ -1189,17 +1241,17 @@ Wire Wire Line
 Connection ~ 2400 6900
 Connection ~ 2400 6800
 Wire Wire Line
-	1400 6600 1400 6800
+	1400 6600 1400 7000
 Wire Wire Line
 	1800 6800 1800 7000
 Wire Wire Line
 	2400 6900 2600 6900
 Wire Wire Line
-	1400 6800 1800 6800
+	1400 6800 2600 6800
 Wire Wire Line
 	4200 2200 4500 2200
 Wire Wire Line
-	4500 2000 4500 2200
+	4500 2000 4500 2500
 Connection ~ 4500 2200
 Wire Wire Line
 	3500 4800 3500 5000
@@ -1209,15 +1261,15 @@ Wire Wire Line
 	4600 4800 4600 4900
 Connection ~ 4200 4800
 Wire Wire Line
-	3300 4800 3500 4800
+	3300 4800 4600 4800
 Connection ~ 3500 4800
 Wire Wire Line
 	4000 5500 3300 5500
 Connection ~ 3300 5500
 Wire Wire Line
-	6100 4700 6100 4800
+	6100 4700 6100 4900
 Wire Wire Line
-	6100 5200 6100 5300
+	6100 5200 6100 5400
 Wire Wire Line
 	3600 6150 3600 6000
 Wire Wire Line
@@ -1225,10 +1277,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 5200 5700 5400
 Wire Wire Line
-	5400 5400 5700 5400
+	5400 5400 5800 5400
 Connection ~ 5700 5400
 Wire Wire Line
-	6000 5400 6100 5400
+	6000 5400 6200 5400
 Connection ~ 6100 5400
 Wire Wire Line
 	5700 4800 6100 4800
@@ -1236,7 +1288,7 @@ Connection ~ 6100 4800
 Wire Wire Line
 	6200 5800 6100 5800
 Wire Wire Line
-	6100 5800 6100 5900
+	6100 5800 6100 6100
 Wire Wire Line
 	6200 5900 6100 5900
 Connection ~ 6100 5900
@@ -1259,7 +1311,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3700 6200 3700
 Wire Wire Line
-	6200 3700 6200 3900
+	6200 3700 6200 4100
 Wire Wire Line
 	6200 4100 6000 4100
 Wire Wire Line
@@ -1290,7 +1342,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 8000 1400 8400
 Wire Wire Line
-	1700 9000 1700 9200
+	1700 9000 1700 9400
 Wire Wire Line
 	2000 9200 2000 9000
 Connection ~ 1700 9200
@@ -1303,7 +1355,7 @@ Connection ~ 2300 9200
 Wire Wire Line
 	2000 1900 2100 1900
 Wire Wire Line
-	2100 1800 2100 1900
+	2100 1800 2100 2200
 Wire Wire Line
 	2100 2000 2000 2000
 Wire Wire Line
@@ -1313,7 +1365,7 @@ Wire Wire Line
 	2100 2200 2000 2200
 Connection ~ 2100 2100
 Wire Wire Line
-	1500 4800 1500 4950
+	1500 4800 1500 5000
 Connection ~ 2100 1900
 Wire Wire Line
 	1200 4800 1200 4950
@@ -1322,15 +1374,15 @@ Wire Wire Line
 Wire Wire Line
 	3100 2500 3100 2600
 Wire Wire Line
-	1700 9200 2000 9200
+	1700 9200 2600 9200
 Wire Wire Line
 	1400 9000 1400 9200
 Connection ~ 1800 6800
 Wire Wire Line
-	2400 6800 2400 6900
+	2400 6800 2400 7200
 Connection ~ 1400 6800
 Wire Wire Line
-	2400 6000 3600 6000
+	2400 6000 3700 6000
 Connection ~ 2400 6000
 Wire Wire Line
 	3700 6000 3700 6150
@@ -1338,14 +1390,14 @@ Connection ~ 3600 6000
 Wire Wire Line
 	2400 6600 2400 6400
 Wire Wire Line
-	2400 5700 2400 6000
+	2400 5700 2400 6200
 Wire Wire Line
 	6200 6000 6100 6000
 Connection ~ 6100 6000
 Text GLabel 1300 5050 3    60   Input ~ 0
 USBRST
 Wire Wire Line
-	1200 4950 1400 4950
+	1200 4950 1500 4950
 Connection ~ 1500 4950
 Wire Wire Line
 	1300 4800 1300 5050
@@ -1359,108 +1411,4 @@ Wire Wire Line
 Wire Wire Line
 	6250 5200 6400 5200
 Connection ~ 6100 5300
-Wire Wire Line
-	4300 2100 5800 2100
-Wire Wire Line
-	5800 2100 5900 2100
-Wire Wire Line
-	6900 2500 6900 2700
-Wire Wire Line
-	5600 2700 5400 2700
-Wire Wire Line
-	3800 5200 3800 6150
-Wire Wire Line
-	4200 5200 4200 5800
-Wire Wire Line
-	4000 8400 4000 8600
-Wire Wire Line
-	4000 4800 4200 4800
-Wire Wire Line
-	3800 4800 4000 4800
-Wire Wire Line
-	5800 1700 6900 1700
-Wire Wire Line
-	4900 2400 4900 2500
-Wire Wire Line
-	4700 8600 4700 8800
-Wire Wire Line
-	6900 1700 7100 1700
-Wire Wire Line
-	2400 6900 2400 7200
-Wire Wire Line
-	2400 6800 2600 6800
-Wire Wire Line
-	4500 2200 4500 2500
-Wire Wire Line
-	4200 4800 4600 4800
-Wire Wire Line
-	3500 4800 3800 4800
-Wire Wire Line
-	3300 5500 3300 6150
-Wire Wire Line
-	5700 5400 5800 5400
-Wire Wire Line
-	6100 5400 6200 5400
-Wire Wire Line
-	6100 4800 6100 4900
-Wire Wire Line
-	6100 5900 6100 6000
-Wire Wire Line
-	6200 3900 6200 4100
-Wire Wire Line
-	1700 9200 1700 9400
-Wire Wire Line
-	2000 9200 2300 9200
-Wire Wire Line
-	2300 9200 2600 9200
-Wire Wire Line
-	2100 2000 2100 2100
-Wire Wire Line
-	2100 2100 2100 2200
-Wire Wire Line
-	2100 1900 2100 2000
-Wire Wire Line
-	1800 6800 2400 6800
-Wire Wire Line
-	1400 6800 1400 7000
-Wire Wire Line
-	2400 6000 2400 6200
-Wire Wire Line
-	3600 6000 3700 6000
-Wire Wire Line
-	6100 6000 6100 6100
-Wire Wire Line
-	1500 4950 1500 5000
-Wire Wire Line
-	1400 4950 1500 4950
-Wire Wire Line
-	6100 5300 6100 5400
-$Comp
-L 2018-03-08-Intercourse-01-rescue:GND #PWR0101
-U 1 1 5CF1DE7F
-P 2050 6150
-F 0 "#PWR0101" H 2050 5900 50  0001 C CNN
-F 1 "GND" H 2050 6000 50  0000 C CNN
-F 2 "" H 2050 6150 50  0001 C CNN
-F 3 "" H 2050 6150 50  0001 C CNN
-	1    2050 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Antenna_Dipole AE1
-U 1 1 5CF1A8EB
-P 1950 5950
-F 0 "AE1" H 1900 5950 50  0000 L CNN
-F 1 "Antenna_Dipole" H 1650 6050 50  0000 L CNN
-F 2 "MyAntennas:AN91445_47_mils" H 1950 5950 50  0001 C CNN
-F 3 "~" H 1950 5950 50  0001 C CNN
-	1    1950 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 6400 2000 6350
-Wire Wire Line
-	2000 6350 1950 6350
-Wire Wire Line
-	1950 6350 1950 6150
 $EndSCHEMATC

@@ -1,13 +1,13 @@
-(module AN91445_47_mils (layer F.Cu) (tedit 5CE13074)
+(module AN91445_47_mils (layer F.Cu) (tedit 5CE160BE)
   (fp_text reference Y** (at -3.3528 -7.1628) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value AN91445_47_mils (at 0.4064 3.1496) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 2 smd rect (at -3.556 -0.508) (size 5.08 5.08) (layers F.Cu))
-  (pad 1 smd custom (at 0 0) (size 1.4224 4.064) (layers F.Cu)
-    (zone_connect 0)
+  (pad "" connect rect (at -2.286 -0.508) (size 2.54 5.08) (layers Eco1.User))
+  (pad 2 connect custom (at 0 0) (size 1.4224 4.064) (layers F.Cu)
+    (zone_connect 2)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -20,13 +20,6 @@
          (xy 0.254 -4.318) (xy 7.1882 -4.318) (xy 7.1882 -3.81) (xy 0.254 -3.81) (xy 0.254 -3.048)
          (xy 0.7112 -2.032)) (width 0))
     ))
-  (pad 3 smd rect (at 6.731 -0.508) (size 11.43 5.08) (layers F.Cu))
-  (pad 4 smd custom (at 0 0) (size 1.4224 4.064) (layers B.Cu)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-         (xy -6.096 2.032) (xy -6.096 -3.048) (xy 1.016 -3.048) (xy 1.016 -4.572) (xy 12.446 -4.572)
-         (xy 12.446 2.032)) (width 0))
-    ))
+  (pad "" connect rect (at 5.461 -1.27) (size 8.89 6.604) (layers Eco1.User))
+  (pad 1 thru_hole circle (at 6.858 -4.064) (size 0.381 0.381) (drill 0.3048) (layers *.Cu))
 )
