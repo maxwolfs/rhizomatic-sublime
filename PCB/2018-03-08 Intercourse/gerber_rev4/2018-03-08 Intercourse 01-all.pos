@@ -1,0 +1,50 @@
+### Module positions - created on 31.05.2019 13:20:13 ###
+### Printed by Pcbnew version kicad (5.1.2)-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val               Package                                           PosX       PosY       Rot  Side
+G***      LOGO              layout_03_back                               -152.4000  -101.6000  180.0000  bottom
+C1        DMF3              Murata_DMF3Z                                  127.0000   -85.0900   90.0000  top
+C2        10μF             C_0805_HandSoldering                          149.5237  -103.6034  270.0000  top
+C3        1μF              C_0805_HandSoldering                          120.0150   -81.9150  180.0000  top
+C4        10μF             C_0805_HandSoldering                          154.6037  -103.6234  270.0000  top
+C5        2.2μF            C_0805_HandSoldering                          120.0150   -88.2650  180.0000  top
+C6        10pF              C_0603_HandSoldering                          172.0850   -85.7250  270.0000  top
+C7        10pF              C_0603_HandSoldering                          168.9100   -88.9000    0.0000  top
+C8        10μF             C_0805_HandSoldering                          168.9100  -100.3300    0.0000  top
+C9        1μF              C_0603_HandSoldering                          168.5900   -82.5500  180.0000  top
+C10       5.6pF             C_0603_HandSoldering                          174.6910   -79.1210    0.0000  top
+C11       10μF             C_0805_HandSoldering                          156.2100   -81.9150  180.0000  top
+C12       0.1μF            C_0603_HandSoldering                          160.6550   -78.7400   90.0000  top
+C13       ?                 C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   177.5460   -78.2180   90.0000  top
+C14       ?                 C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   171.8310   -78.2460   90.0000  top
+D1        LED               LED_0805_HandSoldering                        156.2100  -115.5700    0.0000  top
+D2        LED               LED_0805_HandSoldering                        163.8300  -115.5700    0.0000  top
+D3        LED               LED_0805_HandSoldering                        171.4500  -115.5700    0.0000  top
+D4        LED               LED_0805_HandSoldering                        179.0700  -115.5700    0.0000  top
+D5        LED               LED_0805_HandSoldering                        186.6900  -115.5700    0.0000  top
+G***      LOGO              layout_03_eco                                 152.4000  -101.6000    0.0000  top
+G***      LOGO              layout_03_front                               152.4000  -101.6000    0.0000  top
+J1        USB_C_Receptacle  USB_C_Receptacle_Amphenol_12401610E4-2A       115.4250  -101.6000  270.0000  top
+L1        4.7μH            LQH3NPN4R7MJRL                                150.7937   -99.1584    0.0000  top
+R1        12K               R_0805_HandSoldering                          115.5700   -85.0900   90.0000  top
+R2        17K               R_0805_HandSoldering                          148.5100   -94.6150  180.0000  top
+R3        33K               R_0805_HandSoldering                          153.7500   -94.6150    0.0000  top
+R4        10K               R_0805_HandSoldering                          168.9100  -102.8700  180.0000  top
+R5        10K               R_0805_HandSoldering                          172.7200  -101.6000   90.0000  top
+R6        12K               R_0805_HandSoldering                          162.6870   -78.4390  270.0000  top
+R7        200               R_0805_HandSoldering                          162.5600   -95.3300   90.0000  top
+R8        ?                 R_0805_HandSoldering                          156.2100  -113.0300    0.0000  top
+R9        ?                 R_0805_HandSoldering                          163.8300  -113.0300    0.0000  top
+R10       ?                 R_0805_HandSoldering                          171.4500  -113.0300    0.0000  top
+R11       ?                 R_0805_HandSoldering                          179.0700  -113.0300    0.0000  top
+R12       ?                 R_0805_HandSoldering                          186.6900  -113.0300    0.0000  top
+R13       1000              R_0805_HandSoldering                          156.2100   -86.9950  180.0000  top
+R14       1000              R_0805_HandSoldering                          156.2100   -89.5350  180.0000  top
+R15       1000              R_0805_HandSoldering                          156.2100   -84.4550  180.0000  top
+U1        LTC3225           DFN-10-1EP_2x3mm_Pitch0.5mm                   119.3800   -85.1179  270.0000  top
+U2        TPS61221DCKR      sc_70-6                                       152.0637  -102.9684    0.0000  top
+U3        W25Q32FVSSIG      SOIC-8_3.9x4.9mm_Pitch1.27mm                  162.5600  -101.6000   90.0000  top
+U4        ESP8266EX         QFN-32-1EP_5x5mm_Pitch0.5mm                   162.5600   -85.0900  270.0000  top
+Y1        26_MHz            Crystal_SMD_Abracon_ABM8G-4pin_3.2x2.5mm      168.9100   -85.7250  180.0000  top
+## End
